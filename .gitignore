@@ -1,0 +1,44 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Directorios de configuración privada
+.env
+.env.local
+*.env.*.local
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+*~
+.~*
+
+# Dependencias (si hay node_modules o similar)
+node_modules/
+venv/
+__pycache__/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Obsidian local
+.obsidian/
+
+# Datos sensibles (si los hay)
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+
+# Carpeta de scratch/temporal
+AppData/Local/Temp/
+
+# Archivos de lock (mantener)
+# package-lock.json
+# poetry.lock

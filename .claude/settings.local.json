@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_get_ad_accounts",
+      "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_get_ad_entities",
+      "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_library_search",
+      "mcp__claude_ai_Meta_ads__ads_get_ad_entities"
+    ]
+  }
+}
