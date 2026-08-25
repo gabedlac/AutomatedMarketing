@@ -96,6 +96,10 @@ Benchmarks de industria, análisis competitivo, posicionamiento.
 ### 💾 [[Resources]]
 Recursos, herramientas, links útiles, documentación.
 
+### 📊 [[Reports]]
+Reportes de análisis de campañas (daily, weekly, monthly).
+**Plantilla:** Usa [[Report Template]]
+
 ---
 
 ## 🎓 Templillas Disponibles
@@ -109,6 +113,7 @@ Recursos, herramientas, links útiles, documentación.
 | [[Idea Template]] | Ideas nuevas |
 | [[Campaign Template]] | Historial de campañas |
 | [[Benchmarking Template]] | Análisis competitivo |
+| [[Report Template]] | Reportes de análisis |
 
 ---
 
