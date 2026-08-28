@@ -90,3 +90,7 @@ Sistema de automatización de marketing en Meta Ads (Facebook/Instagram) para Oc
 ---
 
 *Última actualización: 2026-08-25*
+
+
+## Leer el readme de obsidian
+lee el readme de obsidian para saber que hacer con la info que te pido

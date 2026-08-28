@@ -5,7 +5,14 @@
       "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_get_ad_entities",
       "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_library_search",
       "mcp__claude_ai_Meta_ads__ads_get_ad_entities",
-      "Bash(git remote *)"
+      "Bash(git remote *)",
+      "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_create_ad_set",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Skill(schedule)",
+      "Skill(schedule:*)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
