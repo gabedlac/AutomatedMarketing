@@ -4,49 +4,75 @@ aliases: [reporte-2026-08-21]
 tags: [daily-note, performance, meta-ads, octopus]
 ---
 
-# Report Performance - 2026-08-21
+# ðŸ“Š Reporte Performance - 2026-08-21
 
-## Resumen Ejecutivo
+## ðŸ“Š Resumen Ejecutivo
 
-| Metric | Value | Meta | Status |
-|--------|-------|------|--------|
-| **CPL Promedio** | $11.49 USD | $6-7 | ALTO |
-| **Gasto Total** | $34.48 USD | - | - |
-| **Leads Total** | 3 | 4-5 | Bajo |
-| **CTR Promedio** | 1.76% | 3-4% | Bajo |
+| MÃ©trica | Valor | Meta | Status |
+|---------|-------|------|--------|
+| **CPL Promedio** | \$11.49 USD | \$6-7 | âš ï¸ ARRIBA |
+| **Gasto Total** | \$34.48 USD | - | - |
+| **Leads Total** | 3 | 4-5 | âš ï¸ Bajo |
+| **CTR Promedio** | 1.76% | 3-4% | âš ï¸ Bajo |
+| **CPC Promedio** | \$0.25 USD | - | - |
+| **CPM Promedio** | \$4.36 USD | - | - |
+| **Impresiones Total** | 7904 | - | - |
 | **Clicks Total** | 139 | - | - |
-| **Impresiones** | 7904 | - | - |
 
-## Performance por Campaña
+## ðŸŽ¯ Performance por CampaÃ±a (Ranked por CPL)
 
-### Pyme El salvador
-- CPL: Competitivo
-- Leads: -
-- Gasto: -
+### ðŸ† 1. [[Odoo Test]] - â­ PERFORMANCE
+\\\
+CPL: \$4.19 USD (âœ…)
+Leads: 1
+Gasto: \$4.19 USD
+Impresiones: 849
+Clicks: 16
+CTR: 1.88%
+CPC: \$0.26 USD
+CPM: \$4.94 USD
+Conv Rate: 6.25%
+Status: ACTIVE âœ…
+\\\
 
-### Beco GT
-- CPL: Estable
-- Leads: -
-- Gasto: -
+### ðŸ¥ˆ 2. [[Pyme El salvador]] - â­ PERFORMANCE
+\\\
+CPL: \$10.34 USD (âš ï¸)
+Leads: 1
+Gasto: \$10.34 USD
+Impresiones: 2774
+Clicks: 25
+CTR: 0.9%
+CPC: \$0.41 USD
+CPM: \$3.73 USD
+Conv Rate: 4%
+Status: ACTIVE âœ…
+\\\
 
-### Odoo Test
-- CPL: Variable
-- Leads: -
-- Gasto: -
+### ðŸ¥‰ 3. [[Toma El control]] - â­ PERFORMANCE
+\\\
+CPL: \$11.83 USD (âš ï¸)
+Leads: 1
+Gasto: \$11.83 USD
+Impresiones: 2517
+Clicks: 75
+CTR: 2.98%
+CPC: \$0.16 USD
+CPM: \$4.7 USD
+Conv Rate: 1.33%
+Status: ACTIVE âœ…
+\\\
 
-### Toma El control
-- CPL: Alto
-- Leads: -
-- Gasto: -
+## ðŸ’¡ Insights & AnÃ¡lisis
 
-## Insights
-
-- Gasto total: $34.48
-- Leads: 3
-- CTR: 1.76%
-- CPL promedio: $11.49
+- **Total Leads:** 3
+- **Gasto Total:** \$34.48
+- **CPL Promedio:** \$11.49
+- **CTR:** 1.76%
 
 ---
 
-Generado: 2026-08-21
-Cuenta: GT | Octopus Innovations (2530001557366648)
+**Generado por:** Claude Code + Meta Ads API
+**Cuenta:** GT | Octopus Innovations (2530001557366648)
+**Fecha:** 2026-08-21
+**Tags:** #daily-note #performance #meta-ads #octopus #lead-generation
