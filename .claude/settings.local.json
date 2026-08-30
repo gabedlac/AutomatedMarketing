@@ -13,7 +13,11 @@
       "Skill(schedule:*)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_insights_anomaly_signal",
+      "Bash(git config *)",
+      "Bash(python3)",
+      "Bash(git commit -m 'Add 19 daily performance reports \\(2026-08-10 to 2026-08-28\\) with real Meta Ads data *)"
     ]
   }
 }
