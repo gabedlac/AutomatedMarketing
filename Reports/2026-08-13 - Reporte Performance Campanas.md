@@ -4,75 +4,66 @@ aliases: [reporte-2026-08-13]
 tags: [daily-note, performance, meta-ads, octopus]
 ---
 
-# ðŸ“Š Reporte Performance - 2026-08-13
+# Reporte Performance - 2026-08-13
 
-## ðŸ“Š Resumen Ejecutivo
+## Resumen Ejecutivo
 
-| MÃ©trica | Valor | Meta | Status |
+| Metrica | Valor | Meta | Status |
 |---------|-------|------|--------|
-| **CPL Promedio** | \$5.85 USD | \$6-7 | âœ… DENTRO DE META |
-| **Gasto Total** | \$35.12 USD | - | - |
-| **Leads Total** | 6 | 4-5 | âœ… Excelente |
-| **CTR Promedio** | 1.24% | 3-4% | âš ï¸ Bajo |
-| **CPC Promedio** | \$0.34 USD | - | - |
-| **CPM Promedio** | \$4.22 USD | - | - |
-| **Impresiones Total** | 8320 | - | - |
-| **Clicks Total** | 103 | - | - |
+| CPL Promedio | $5.85 USD | $6-7 | DENTRO |
+| Gasto Total | $35.12 USD | - | - |
+| Leads Total | 6 | 4-5 | Excelente |
+| CTR Promedio | - | 3-4% | Bajo |
+| CPC Promedio | $0.34 USD | - | - |
+| CPM Promedio | $4.22 USD | - | - |
+| Impresiones Total | 8320 | - | - |
+| Clicks Total | 103 | - | - |
 
-## ðŸŽ¯ Performance por CampaÃ±a (Ranked por CPL)
+## Performance por Campaña (Ranked por CPL)
 
-### ðŸ† 1. [[Odoo Test]] - â­ PERFORMANCE
-\\\
-CPL: \$2.03 USD (âœ…)
-Leads: 2
-Gasto: \$4.06 USD
-Impresiones: 736
-Clicks: 14
-CTR: 1.9%
-CPC: \$0.29 USD
-CPM: \$5.52 USD
-Conv Rate: 14.29%
-Status: ACTIVE âœ…
-\\\
+### RANK 1 - Odoo Test
+- Leads: 2
+- CPL: $2.03 USD
+- Gasto: $4.06 USD
+- Clicks: 14
+- Impresiones: 736
+- CTR: 1.9%
+- CPC: $0.29 USD
+- CPM: $5.52 USD
+- Conv Rate: 14.3%
 
-### ðŸ¥ˆ 2. [[Toma El control]] - â­ PERFORMANCE
-\\\
-CPL: \$4.34 USD (âœ…)
-Leads: 3
-Gasto: \$13.02 USD
-Impresiones: 2366
-Clicks: 27
-CTR: 1.14%
-CPC: \$0.48 USD
-CPM: \$5.5 USD
-Conv Rate: 11.11%
-Status: ACTIVE âœ…
-\\\
+### RANK 2 - Toma El control
+- Leads: 3
+- CPL: $4.34 USD
+- Gasto: $13.02 USD
+- Clicks: 27
+- Impresiones: 2366
+- CTR: 1.14%
+- CPC: $0.48 USD
+- CPM: $5.5 USD
+- Conv Rate: 11.1%
 
-### ðŸ¥‰ 3. [[Beco GT]] - â­ PERFORMANCE
-\\\
-CPL: \$6.64 USD (âš ï¸)
-Leads: 1
-Gasto: \$6.64 USD
-Impresiones: 1896
-Clicks: 19
-CTR: 1%
-CPC: \$0.35 USD
-CPM: \$3.5 USD
-Conv Rate: 5.26%
-Status: ACTIVE âœ…
-\\\
+### RANK 3 - Beco GT
+- Leads: 1
+- CPL: $6.64 USD
+- Gasto: $6.64 USD
+- Clicks: 19
+- Impresiones: 1896
+- CTR: 1%
+- CPC: $0.35 USD
+- CPM: $3.5 USD
+- Conv Rate: 5.3%
 
-## ðŸ’¡ Insights & AnÃ¡lisis
+## Insights
 
-- **Total Leads:** 6
-- **Gasto Total:** \$35.12
-- **CPL Promedio:** \$5.85
-- **CTR:** 1.24%
+- Total Leads: 6
+- Gasto Total: $35.12
+- CPL Promedio: $5.85
+- CTR Promedio: -
 
 ---
 
-**Generado por:** Claude Code + Meta Ads API
-**Cuenta:** GT | Octopus Innovations (2530001557366648)
-**Fecha:** 2026-08-13
-**Tags:** #daily-note #performance #meta-ads #octopus #lead-generation
+Generado por: Claude Code + Meta Ads API
+Cuenta: GT | Octopus Innovations (2530001557366648)
+Fecha: 2026-08-13
+Tags: #daily-note #performance #meta-ads #octopus #lead-generation

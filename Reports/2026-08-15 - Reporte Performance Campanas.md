@@ -4,75 +4,66 @@ aliases: [reporte-2026-08-15]
 tags: [daily-note, performance, meta-ads, octopus]
 ---
 
-# ðŸ“Š Reporte Performance - 2026-08-15
+# Reporte Performance - 2026-08-15
 
-## ðŸ“Š Resumen Ejecutivo
+## Resumen Ejecutivo
 
-| MÃ©trica | Valor | Meta | Status |
+| Metrica | Valor | Meta | Status |
 |---------|-------|------|--------|
-| **CPL Promedio** | \$7.36 USD | \$6-7 | âš ï¸ ARRIBA |
-| **Gasto Total** | \$36.82 USD | - | - |
-| **Leads Total** | 5 | 4-5 | âœ… Excelente |
-| **CTR Promedio** | 1.84% | 3-4% | âš ï¸ Bajo |
-| **CPC Promedio** | \$0.23 USD | - | - |
-| **CPM Promedio** | \$4.17 USD | - | - |
-| **Impresiones Total** | 8834 | - | - |
-| **Clicks Total** | 163 | - | - |
+| CPL Promedio | $7.36 USD | $6-7 | ARRIBA |
+| Gasto Total | $36.82 USD | - | - |
+| Leads Total | 5 | 4-5 | Excelente |
+| CTR Promedio | - | 3-4% | Bajo |
+| CPC Promedio | $0.23 USD | - | - |
+| CPM Promedio | $4.17 USD | - | - |
+| Impresiones Total | 8834 | - | - |
+| Clicks Total | 163 | - | - |
 
-## ðŸŽ¯ Performance por CampaÃ±a (Ranked por CPL)
+## Performance por Campaña (Ranked por CPL)
 
-### ðŸ† 1. [[Pyme El salvador]] - â­ PERFORMANCE
-\\\
-CPL: \$3.92 USD (âœ…)
-Leads: 3
-Gasto: \$11.76 USD
-Impresiones: 3236
-Clicks: 56
-CTR: 1.73%
-CPC: \$0.21 USD
-CPM: \$3.63 USD
-Conv Rate: 5.36%
-Status: ACTIVE âœ…
-\\\
+### RANK 1 - Pyme El salvador
+- Leads: 3
+- CPL: $3.92 USD
+- Gasto: $11.76 USD
+- Clicks: 56
+- Impresiones: 3236
+- CTR: 1.73%
+- CPC: $0.21 USD
+- CPM: $3.63 USD
+- Conv Rate: 5.4%
 
-### ðŸ¥ˆ 2. [[Beco GT]] - â­ PERFORMANCE
-\\\
-CPL: \$6.51 USD (âš ï¸)
-Leads: 1
-Gasto: \$6.51 USD
-Impresiones: 1811
-Clicks: 30
-CTR: 1.66%
-CPC: \$0.22 USD
-CPM: \$3.59 USD
-Conv Rate: 3.33%
-Status: ACTIVE âœ…
-\\\
+### RANK 2 - Beco GT
+- Leads: 1
+- CPL: $6.51 USD
+- Gasto: $6.51 USD
+- Clicks: 30
+- Impresiones: 1811
+- CTR: 1.66%
+- CPC: $0.22 USD
+- CPM: $3.59 USD
+- Conv Rate: 3.3%
 
-### ðŸ¥‰ 3. [[Toma El control]] - â­ PERFORMANCE
-\\\
-CPL: \$14.49 USD (âš ï¸)
-Leads: 1
-Gasto: \$14.49 USD
-Impresiones: 2900
-Clicks: 62
-CTR: 2.14%
-CPC: \$0.23 USD
-CPM: \$5 USD
-Conv Rate: 1.61%
-Status: ACTIVE âœ…
-\\\
+### RANK 3 - Toma El control
+- Leads: 1
+- CPL: $14.49 USD
+- Gasto: $14.49 USD
+- Clicks: 62
+- Impresiones: 2900
+- CTR: 2.14%
+- CPC: $0.23 USD
+- CPM: $5 USD
+- Conv Rate: 1.6%
 
-## ðŸ’¡ Insights & AnÃ¡lisis
+## Insights
 
-- **Total Leads:** 5
-- **Gasto Total:** \$36.82
-- **CPL Promedio:** \$7.36
-- **CTR:** 1.84%
+- Total Leads: 5
+- Gasto Total: $36.82
+- CPL Promedio: $7.36
+- CTR Promedio: -
 
 ---
 
-**Generado por:** Claude Code + Meta Ads API
-**Cuenta:** GT | Octopus Innovations (2530001557366648)
-**Fecha:** 2026-08-15
-**Tags:** #daily-note #performance #meta-ads #octopus #lead-generation
+Generado por: Claude Code + Meta Ads API
+Cuenta: GT | Octopus Innovations (2530001557366648)
+Fecha: 2026-08-15
+Tags: #daily-note #performance #meta-ads #octopus #lead-generation
