@@ -64,16 +64,16 @@ No se realizaron cambios manuales (presupuesto, targeting, copys, pausas) en nin
 
 ## 📊 Datos Clave del Día
 
-| Métrica | Valor | Meta | Status |
-|---------|-------|------|--------|
-| CPL Promedio | $4.63 USD | $6-7 | 🟢 Dentro de meta |
-| Gasto Total | $50.88 USD | - | - |
-| Leads Total | 11 | 4-5 | 🟢 Excelente |
-| CTR Promedio | 1.65% | 3-4% | 🔴 Bajo |
-| CPC Promedio | $0.31 USD | - | - |
-| Impresiones Total | 9,963 | - | - |
-| Clicks Total | 164 | - | - |
-| Reach Total | 7,868 | - | - |
+| Métrica           | Valor      | Meta | Status            |
+| ----------------- | ---------- | ---- | ----------------- |
+| CPL Promedio      | $4.63 USD  | $6-7 | 🟢 Dentro de meta |
+| Gasto Total       | $50.88 USD | -    | -                 |
+| Leads Total       | 11         | 4-5  | 🟢 Excelente      |
+| CTR Promedio      | 1.65%      | 3-4% | 🔴 Bajo           |
+| CPC Promedio      | $0.31 USD  | -    | -                 |
+| Impresiones Total | 9,963      | -    | -                 |
+| Clicks Total      | 164        | -    | -                 |
+| Reach Total       | 7,868      | -    | -                 |
 
 **Mejor campaña del día:** Toma El control de tu pyme (GT) — CPL $3.09 USD
 **Peor campaña del día:** Beco GT — CPL $11.58 USD

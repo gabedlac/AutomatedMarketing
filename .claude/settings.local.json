@@ -17,7 +17,18 @@
       "mcp__193010f2-c7e8-4c43-9f78-389bbe10d285__ads_insights_anomaly_signal",
       "Bash(git config *)",
       "Bash(python3)",
-      "Bash(git commit -m 'Add 19 daily performance reports \\(2026-08-10 to 2026-08-28\\) with real Meta Ads data *)"
+      "Bash(git commit -m 'Add 19 daily performance reports \\(2026-08-10 to 2026-08-28\\) with real Meta Ads data *)",
+      "Bash(pwsh \"C:\\\\Users\\\\edyga\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-edyga-Documents-Automated-Meta-Marketing\\\\43016780-076a-4f75-884f-c02da2ad0e8c\\\\scratchpad\\\\generate_19_reports.ps1\")",
+      "PowerShell(& \"C:\\\\Users\\\\edyga\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-edyga-Documents-Automated-Meta-Marketing\\\\43016780-076a-4f75-884f-c02da2ad0e8c\\\\scratchpad\\\\generate_19_reports.ps1\")",
+      "Bash(python3 \"C:\\\\Users\\\\edyga\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-edyga-Documents-Automated-Meta-Marketing\\\\43016780-076a-4f75-884f-c02da2ad0e8c\\\\scratchpad\\\\generate_19_reports.py\")",
+      "PowerShell(python --version)",
+      "PowerShell(& \"C:\\\\Users\\\\edyga\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-edyga-Documents-Automated-Meta-Marketing\\\\43016780-076a-4f75-884f-c02da2ad0e8c\\\\scratchpad\\\\regenerate_reports_detailed.ps1\")",
+      "Bash(git commit -m 'Regenerate 19 daily performance reports with complete campaign breakdown *)",
+      "Bash(rm Reports/TEST-*.md)",
+      "Bash(git commit -m 'Fix: Regenerate 19 reports with correct UTF-8 encoding *)",
+      "Bash(git commit -m 'Update 2026-08-28 report with ad-level breakdown *)",
+      "Bash(git pull *)",
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\edyga\\\\Documents\\\\Automated Meta Marketing\\\\Articles\" -Force)"
     ]
   }
 }
