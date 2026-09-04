@@ -16,7 +16,7 @@ tags: [organic, social-media, instagram, facebook, content-calendar, odoo, lead-
 | **Posts totales** | 13 |
 | **Frecuencia** | 3 posts/semana |
 | **Plataformas** | Instagram, Facebook |
-| **Formatos** | Carousel (7), Reels (3), Static (3) |
+| **Formato** | Static Images Only |
 | **Objetivo** | Lead Generation + Awareness |
 | **Target Audience** | Pymes Guatemala, El Salvador, Honduras |
 
@@ -28,33 +28,33 @@ tags: [organic, social-media, instagram, facebook, content-calendar, odoo, lead-
 
 | Fecha | Día | Tipo | Arte/Idea | Visual Descripción | Copy (Texto) | Hashtags | CTA |
 |-------|-----|------|-----------|------------------|--------------|----------|-----|
-| 2026-09-02 | Lunes | Carousel | "Problemas de Pymes" | 5 slides: EXCEL/WORD exhausto, Procesos manuales, Error humano, Falta de control, SOLUCIÓN ODOO | "¿Tu negocio se maneja con Excel? 😅 Mira qué está perdiendo tu empresa..." | #Odoo #Pymes #ERP #Automatización #Guatemala | "Ver más" |
-| 2026-09-04 | Miércoles | Reels | "Transformación 30s" | Video: Cambio antes/después (Excel → Odoo), transiciones rápidas, música motivacional | "De caos a control en 30 segundos. Así funciona Odoo para tu pyme 🚀" | #OdooErp #Transform #Pymes #Productividad | "Más info" |
-| 2026-09-06 | Viernes | Static | "CTA Principal" | Imagen: Odoo logo + "Toma el control de tu pyme" + CTAs grandes | "Abril es el mes de optimizaciones. ¿Listo para cambiar? Solicita demo gratis 👇" | #Odoo #DemoGratis #LeadGeneration #Pymes | "Solicitar Demo" |
+| 2026-09-02 | Lunes | Static | "Problemas de Pymes" | Imagen con texto overlay: "¿Tu negocio se maneja con Excel?" + iconos de procesos manuales | "¿Tu negocio se maneja con Excel? 😅 Mira qué está perdiendo tu empresa... Procesos manuales, errores humanos, falta de control. Odoo es la solución." | #Odoo #Pymes #ERP #Automatización #Guatemala | "Ver más" |
+| 2026-09-04 | Miércoles | Static | "Transformación Antes/Después" | Imagen split: Lado izq (Excel, caos, ❌) vs Lado derecho (Odoo, orden, ✅) | "De caos a control. Esta es la transformación que miles de pymes ya viven con Odoo 🚀 ¿Cuándo es tu turno?" | #OdooErp #Transform #Pymes #Productividad | "Conoce cómo" |
+| 2026-09-06 | Viernes | Static | "CTA Principal Demo" | Imagen: Odoo logo grande + "Solicita tu Demo Gratis" + beneficios clave en bullets | "Septiembre es el mes de optimizaciones. ¿Listo para cambiar? Solicita una demo gratis y descubre cómo Odoo puede transformar tu pyme 👇" | #Odoo #DemoGratis #LeadGeneration #Pymes | "Solicitar Demo" |
 
 ### Semana 2 (8-13 de Septiembre)
 
 | Fecha | Día | Tipo | Arte/Idea | Visual Descripción | Copy (Texto) | Hashtags | CTA |
 |-------|-----|------|-----------|------------------|--------------|----------|-----|
-| 2026-09-09 | Lunes | Static | "Testimonial" | Imagen con quote de cliente real + foto pequeña cliente | '"Odoo nos ahorro 15 horas semanales de trabajo manual" - Juan, Gerente de Operaciones' | #CasoDeExito #Testimonial #Odoo #ROI | "Lee la historia" |
-| 2026-09-11 | Miércoles | Carousel | "Módulos Odoo" | 4 slides: Contabilidad, Ventas, Inventario, RR.HH | "Todo lo que necesita tu pyme en UN solo sistema. Descubre los módulos de Odoo 📦" | #OdooModules #AllInOne #ERP #Pymes | "Explorar" |
-| 2026-09-13 | Viernes | Reels | "Integración" | Video: Flujo de datos entre módulos, sincronización automática, beneficios rápidos | "Sin copiar y pegar datos. Todo automatizado con Odoo ⚡" | #Automatización #Odoo #Eficiencia #NoMoreExcel | "Descubre cómo" |
+| 2026-09-09 | Lunes | Static | "Testimonial" | Imagen con quote destacado + logo/foto cliente pequeña en esquina | '"Odoo nos ahorro 15 horas semanales de trabajo manual" - Juan, Gerente de Operaciones, Pyme GT' | #CasoDeExito #Testimonial #Odoo #ROI | "Lee la historia completa" |
+| 2026-09-11 | Miércoles | Static | "Módulos Odoo" | Imagen infográfica: 4 módulos principales (Contabilidad, Ventas, Inventario, RR.HH) con iconos y descripciones breves | "Todo lo que necesita tu pyme en UN solo sistema. 4 módulos esenciales de Odoo que transforman tu negocio 📦" | #OdooModules #AllInOne #ERP #Pymes | "Descubre todos los módulos" |
+| 2026-09-13 | Viernes | Static | "Integración Automática" | Imagen: Flujo visual de datos entre módulos, sincronización automática, eliminación de copy-paste | "Sin copiar y pegar datos. Con Odoo todo está conectado y se sincroniza automáticamente ⚡ Ahorra tiempo, elimina errores." | #Automatización #Odoo #Eficiencia #NoMoreExcel | "Activar integración" |
 
 ### Semana 3 (15-20 de Septiembre)
 
 | Fecha | Día | Tipo | Arte/Idea | Visual Descripción | Copy (Texto) | Hashtags | CTA |
 |-------|-----|------|-----------|------------------|--------------|----------|-----|
-| 2026-09-16 | Lunes | Carousel | "Cifras de Impacto" | 5 slides con datos: % tiempo ahorrado, % errores reducidos, ROI típico, casos de éxito, CTA | "Números que hablan: empresas como la tuya están ahorando 40% de tiempo administrativo 📊" | #DataDriven #ROI #Productividad #Odoo | "Calcula tu ahorro" |
-| 2026-09-18 | Miércoles | Static | "Comparativa" | Tabla visual: Excel vs Odoo (seguridad, escalabilidad, costo, tiempo) | "Excel vs Odoo: ¿cuál es la mejor opción para tu negocio? 🤔 La respuesta es obvia..." | #Excel #Odoo #Comparativa #ModernoVsAntiguo | "Ver diferencias" |
-| 2026-09-20 | Viernes | Carousel | "Clientes en Industria" | 4 slides: Casos en Retail, Manufactura, Servicios, F&B | "Odoo funciona en CUALQUIER industria. Descubre cómo tus competidores ya lo usan 🏆" | #Odoo #Retail #Manufactura #Pymes #Casos | "Ver ejemplos" |
+| 2026-09-16 | Lunes | Static | "Cifras de Impacto" | Imagen infográfica grande: % tiempo ahorrado (40%), % errores reducidos (70%), ROI típico, ejemplos | "Números que hablan: empresas como la tuya están ahorrando 40% de tiempo administrativo y reduciendo errores 70% 📊 ¿Cuánto podrías ahorrar?" | #DataDriven #ROI #Productividad #Odoo | "Calcula tu ahorro" |
+| 2026-09-18 | Miércoles | Static | "Comparativa Excel vs Odoo" | Tabla visual limpia: Excel (❌ limitado) vs Odoo (✅ escalable) en columnas claras | "Excel vs Odoo: ¿cuál es la mejor opción para tu negocio? 🤔 Seguridad, escalabilidad, costo, tiempo. La respuesta es clara..." | #Excel #Odoo #Comparativa #ModernoVsAntiguo | "Ver diferencias completas" |
+| 2026-09-20 | Viernes | Static | "Casos en Industrias" | Imagen: 4 iconos de industrias (Retail, Manufactura, Servicios, F&B) + logos/ejemplos de clientes | "Odoo funciona en CUALQUIER industria. Retail, Manufactura, Servicios, F&B... Descubre cómo tus competidores ya lo usan 🏆" | #Odoo #Retail #Manufactura #Pymes #Casos | "Ver casos de éxito" |
 
 ### Semana 4 (22-27 de Septiembre)
 
 | Fecha | Día | Tipo | Arte/Idea | Visual Descripción | Copy (Texto) | Hashtags | CTA |
 |-------|-----|------|-----------|------------------|--------------|----------|-----|
-| 2026-09-23 | Lunes | Reels | "Behind the Scenes" | Video: Equipo Odoo trabajando, desarrollo, innovación, passion | "Detrás de Odoo hay passion por ayudar a pymes como la tuya 💪" | #BehindTheScenes #OdooTeam #Innovation | "Conoce el equipo" |
-| 2026-09-25 | Miércoles | Static | "Event/Webinar" | Banner: "Webinar Gratis: Odoo para Pymes" con fecha/hora | "Este Octubre: Webinar GRATIS 'Cómo Odoo transforma pymes'. ¿Te interesa? ✋" | #Webinar #Odoo #Educacion #Gratis | "Registrate aquí" |
-| 2026-09-27 | Viernes | Carousel | "Tips & Tricks" | 5 slides: 5 features ocultos de Odoo que no conocías | "5 superpoderes de Odoo que tu competencia NO está usando (aún) 🦸" | #OdooTips #Productividad #FeatureUnlock | "Descubre todos" |
+| 2026-09-23 | Lunes | Static | "Equipo Odoo" | Imagen de equipo trabajando, innovación, ambiente profesional (puedes usar stock o tu equipo) | "Detrás de Odoo hay passion por ayudar a pymes como la tuya 💪 Somos innovadores, somos apasionados, somos tu aliado" | #BehindTheScenes #OdooTeam #Innovation | "Conoce nuestro equipo" |
+| 2026-09-25 | Miércoles | Static | "Webinar Gratis" | Banner atractivo: "Webinar GRATIS: Cómo Odoo Transforma Pymes" + fecha, hora, botón claro | "Este Octubre: Webinar GRATIS 'Cómo Odoo transforma pymes'. Aprende de expertos, resuelve tus dudas. ¿Te interesa? ✋" | #Webinar #Odoo #Educacion #Gratis #Pymes | "Registrate gratis aquí" |
+| 2026-09-27 | Viernes | Static | "5 Tips de Odoo" | Imagen infográfica: 5 features/tips listados con números y descripciones breves | "5 superpoderes de Odoo que tu competencia NO está usando (aún) 🦸 Tips que transformarán tu pyme en septiembre" | #OdooTips #Productividad #FeatureUnlock #Odoo | "Descubre los 5 tips" |
 
 ### Semana 5 (29 de Septiembre)
 
@@ -64,33 +64,41 @@ tags: [organic, social-media, instagram, facebook, content-calendar, odoo, lead-
 
 ---
 
-## 🎨 Detalles de Diseño
+## 🎨 Detalles de Diseño para Static Images
+
+### Dimensiones
+- **Instagram:** 1080x1350px (vertical feed)
+- **Facebook:** 1200x628px (landscape feed)
+- **Recomendado:** Crear en 1080x1350 y adaptar a Facebook
 
 ### Paleta de Colores
 - **Primario:** Azul Odoo (#00A09D)
 - **Secundario:** Naranja (#F57921)
-- **Fondo:** Blanco o Gris Claro
-- **Textos:** Gris Oscuro (legibilidad en móvil)
+- **Fondo:** Blanco o Gris Claro (fácil de leer en móvil)
+- **Textos:** Gris Oscuro para contraste
+- **Acentos:** Verde lima para CTAs
 
 ### Tipografía
-- **Títulos:** Bold, 20-28pt
-- **Body:** Regular, 14-16pt
-- **CTAs:** Bold, Contraste alto
+- **Títulos:** Bold, 20-28pt (headlines impactantes)
+- **Body Copy:** Regular, 14-16pt (legible en móvil)
+- **CTAs:** Bold, 16-18pt con fondo/botón destacado
 
 ### Elementos Gráficos
-- Iconos de Odoo (módulos)
-- Líneas separadoras
-- Badges de "Gratis", "Demo", "Ahorro"
-- Arrows/Punteros para CTAs
+- Iconos limpios (Odoo, módulos, industrias)
+- Líneas separadoras simples
+- Badges para "Gratis", "Demo", "Ahorro"
+- Flechas o punteros hacia CTAs
+- Emojis estratégicos para captar atención
+- Espacios en blanco (evitar saturación)
 
 ---
 
 ## 📊 Strategy Notes
 
-### Patrones Observados
-- **Lunes:** Contenido educativo/problema (Carousel)
-- **Miércoles:** Video/Demo (Reels) - Mayor engagement
-- **Viernes:** Oferta/CTA fuerte (Static) - Conversión
+### Patrones por Día
+- **Lunes:** Contenido educativo/problema (Awareness)
+- **Miércoles:** Solución/Datos (Engagement)
+- **Viernes:** Oferta/CTA fuerte (Conversión)
 
 ### Objetivos por Post
 1. **Semana 1:** Awareness + Problema (Gain attention)
@@ -138,8 +146,9 @@ Para octubre considerar:
 ---
 
 Creado: 2026-09-04  
+Actualizado: 2026-09-04 (Solo Static Images)
 Marca: Odoo Community  
 Plataformas: Instagram | Facebook  
-Tipo: Organic Content Calendar  
-Status: 📅 Listo para implementar  
-Tags: #organic #social-media #odoo #pymes #lead-generation
+Tipo: Organic Content Calendar - Static Only
+Status: 📅 Listo para implementar en Canva  
+Tags: #organic #social-media #odoo #pymes #lead-generation #static-images
