@@ -152,3 +152,26 @@ Plataformas: Instagram | Facebook
 Tipo: Organic Content Calendar - Static Only
 Status: 📅 Listo para implementar en Canva  
 Tags: #organic #social-media #odoo #pymes #lead-generation #static-images
+
+---
+
+## 📅 Calendario de Contenidos - Formato CSV
+
+```csv
+Fecha,Día,Hora,Título,Tipo de contenido,Formato,Plataformas,Estado,Descripción visual,Copy para Facebook,Hashtags,Notas
+02/09/2026,Miércoles,09:00,Problemas de Pymes,Educativo,Post,Instagram, Facebook,Pendiente,Imagen con texto overlay: ¿Tu negocio se maneja con Excel? + iconos de procesos manuales,¿Tu negocio se maneja con Excel? 😅 Mira qué está perdiendo tu empresa... Procesos manuales errores humanos falta de control. Odoo es la solución.,#Odoo #Pymes #ERP #Automatización #Guatemala,Imagen problema - Excel vs procesos manuales
+04/09/2026,Viernes,14:00,Transformación Antes/Después,Educativo,Post,Instagram, Facebook,Pendiente,Imagen split: Lado izq (Excel caos ❌) vs Lado derecho (Odoo orden ✅),De caos a control. Esta es la transformación que miles de pymes ya viven con Odoo 🚀 ¿Cuándo es tu turno?,#OdooErp #Transform #Pymes #Productividad,Split image: Caos vs Orden
+06/09/2026,Domingo,18:00,CTA Principal Demo,Educativo,Post,Instagram, Facebook,Pendiente,Imagen: Odoo logo grande + Solicita tu Demo Gratis + beneficios clave en bullets,Septiembre es el mes de optimizaciones. ¿Listo para cambiar? Solicita una demo gratis y descubre cómo Odoo puede transformar tu pyme 👇,,Lead Gen - Solicitar Demo
+09/09/2026,Miércoles,09:00,Testimonial,Educativo,Post,Instagram, Facebook,Pendiente,Imagen con quote destacado + logo/foto cliente pequeña en esquina,"Odoo nos ahorro 15 horas semanales de trabajo manual" - Juan Gerente de Operaciones Pyme GT,#CasoDeExito #Testimonial #Odoo #ROI,Quote destacado - caso de éxito
+11/09/2026,Viernes,14:00,Módulos Odoo,Educativo,Post,Instagram, Facebook,Pendiente,Imagen infográfica: 4 módulos principales (Contabilidad Ventas Inventario RR.HH) con iconos y descripciones breves,Todo lo que necesita tu pyme en UN solo sistema. 4 módulos esenciales de Odoo que transforman tu negocio 📦,,Infográfica 4 módulos
+13/09/2026,Domingo,18:00,Integración Automática,Educativo,Post,Instagram, Facebook,Pendiente,Imagen: Flujo visual de datos entre módulos sincronización automática eliminación de copy-paste,Sin copiar y pegar datos. Con Odoo todo está conectado y se sincroniza automáticamente ⚡ Ahorra tiempo elimina errores.,,Flujo visual sincronización
+16/09/2026,Miércoles,09:00,Cifras de Impacto,Educativo,Post,Instagram, Facebook,Pendiente,Imagen infográfica grande: % tiempo ahorrado (40%) % errores reducidos (70%) ROI típico ejemplos,Números que hablan: empresas como la tuya están ahorrando 40% de tiempo administrativo y reduciendo errores 70% 📊 ¿Cuánto podrías ahorrar?,,Infográfica ROI y ahorro %
+18/09/2026,Viernes,14:00,Comparativa Excel vs Odoo,Educativo,Post,Instagram, Facebook,Pendiente,Tabla visual limpia: Excel (❌ limitado) vs Odoo (✅ escalable) en columnas claras,Excel vs Odoo: ¿cuál es la mejor opción para tu negocio? 🤔 Seguridad escalabilidad costo tiempo. La respuesta es clara...,,Tabla visual clara
+20/09/2026,Domingo,18:00,Casos en Industrias,Educativo,Post,Instagram, Facebook,Pendiente,Imagen: 4 iconos de industrias (Retail Manufactura Servicios F&B) + logos/ejemplos de clientes,Odoo funciona en CUALQUIER industria. Retail Manufactura Servicios F&B... Descubre cómo tus competidores ya lo usan 🏆,,4 iconos industrias
+23/09/2026,Miércoles,09:00,Equipo Odoo,Educativo,Post,Instagram, Facebook,Pendiente,Imagen de equipo trabajando innovación ambiente profesional,Detrás de Odoo hay passion por ayudar a pymes como la tuya 💪 Somos innovadores somos apasionados somos tu aliado,,Behind the scenes equipo
+25/09/2026,Viernes,14:00,Webinar Gratis,Educativo,Post,Instagram, Facebook,Pendiente,Banner atractivo: Webinar GRATIS: Cómo Odoo Transforma Pymes + fecha hora botón claro,Este Octubre: Webinar GRATIS Cómo Odoo transforma pymes. Aprende de expertos resuelve tus dudas. ¿Te interesa? ✋,,Webinar octubre - registro
+27/09/2026,Domingo,18:00,5 Tips de Odoo,Educativo,Post,Instagram, Facebook,Pendiente,Imagen infográfica: 5 features/tips listados con números y descripciones breves,5 superpoderes de Odoo que tu competencia NO está usando (aún) 🦸 Tips que transformarán tu pyme en septiembre,,Infográfica 5 superpoderes
+30/09/2026,Miércoles,09:00,Cierre de Mes + Preview,Educativo,Post,Instagram, Facebook,Pendiente,Imagen: Resumen septiembre + preview octubre,Septiembre fue increíble con ustedes 🙌 En octubre vienen sorpresas... ¿listas?,,Resumen sept + teaser octubre
+```
+
+---
