@@ -6,105 +6,110 @@ tags: [daily-note, summary, meta-ads, octopus]
 
 # Resumen del Dia - 2026-09-08
 
-> [!info] Nota sobre esta entrada
-> Esta nota fue generada automaticamente al cierre del dia. No hubo sesiones de trabajo manual sobre las campanas durante el dia de hoy — el activity log de la cuenta no registra ningun evento (ni manual ni automatico de Meta) entre las 00:00 y las 24:00 (GT) del 2026-09-08, igual que en los dos dias previos. Los totales de "hoy" son parciales (dia en curso al momento del pull via Meta Ads API) y se comparan contra el dia de ayer ya cerrado (2026-09-07).
+> [!info] Nota sobre esta entrada (actualizada con datos de cierre)
+> Esta nota se generó originalmente al cierre parcial del día (pull en vivo, día en curso) y se actualizó posteriormente con los datos finales de Meta Ads API. La versión original registraba 4 leads y CPL $10.06 (parcial, $40.24 de gasto); el pull de cierre muestra en cambio **6 leads, CPL $7.45 y $44.72 de gasto** — el cierre de ventanas de atribución mejoró el resultado, sumando 2 leads adicionales. La versión original también afirmaba que no hubo cambios manuales en la cuenta; el activity log de cierre muestra que sí los hubo (ver Cambios Realizados). Ver el detalle completo en [[Reports/2026-09-08 - Reporte Performance]].
 
 ---
 
-## 🎯 Campañas Revisadas
+## 🎯 Campañas Revisadas (datos finales de cierre)
 
-| Campaña | Status | Gasto Hoy | Leads Hoy | CPL Hoy | CTR Hoy |
-|---------|--------|-----------|-----------|---------|---------|
-| 🟡 Toma El control de tu pyme (GT) | ACTIVE | $12.84 USD | 1 | $12.84 USD | 1.22% |
-| 🔴 Odoo Test | ACTIVE | $4.40 USD | 0 (aún) | - | 1.49% |
-| 🟢 Beco GT | ACTIVE | $10.49 USD | 3 | $3.50 USD | 0.94% |
-| 🔴 Pyme El Salvador | ACTIVE | $12.51 USD | 0 (aún) | - | 1.21% |
+| Campaña | Status | Gasto | Leads | CPL | CTR |
+|---------|--------|-------|-------|-----|-----|
+| 🟢 Toma El control de tu pyme (GT) | ACTIVE | $15.27 USD | 3 | $5.09 USD | 1.73% |
+| 🟢 Odoo Test | ACTIVE | $5.92 USD | 2 | $2.96 USD | 1.48% |
+| 🔴 Beco GT | ACTIVE | $10.77 USD | 0 | - | 1.10% |
+| 🟡 Pyme El Salvador | ACTIVE | $12.76 USD | 1 | $12.76 USD | 1.46% |
 | ⏸️ Toma El control de tu pyme (USA) | PAUSED | - | - | - | - |
 | ⏸️ Accurate Partners - Loyalti | PAUSED | - | - | - | - |
 | ⏸️ Conversión Clientes Potenciales - MX | PAUSED | - | - | - | - |
 | ⏸️ Conversión Clientes Potenciales - PY | PAUSED | - | - | - | - |
 | ⏸️ 🟡 CONVERSIÓN - CLIENTES POTENCIALES | PAUSED | - | - | - | - |
 
-No se realizaron cambios manuales (presupuesto, targeting, copys, pausas) en ninguna campaña durante el día de hoy. El activity log de la cuenta no registra ningún evento en la ventana 2026-09-08 00:00–24:00 (GT).
+Sí hubo un cambio manual en la cuenta durante el día: el anuncio "Odoo Test Reels" (dentro de la campaña Odoo Test) fue pausado por Gabriel Calderon a las 10:28 PM (GT) vía Power Editor. Ver detalle en Cambios Realizados.
 
 ---
 
 ## 🔍 Análisis e Insights
 
-- **Beco GT es la gran sorpresa positiva del día:** 3 leads con CPL de $3.50 USD (por debajo de la meta de $6-7), frente a 1 lead / $11.12 CPL ayer con gasto casi idéntico (~$10-11 en ambos días). Es el mejor resultado individual de campaña registrado en las últimas notas.
-- **El CPL promedio de la cuenta mejora con fuerza: $10.06 USD hoy (parcial) vs $16.23 USD ayer (cerrado), una baja de ~-38%** — impulsada casi en su totalidad por Beco GT. Sigue por encima de la meta de $6-7 USD, pero es la mejor lectura desde el 2026-09-05.
-- **"Toma El control de tu pyme (GT)" mejora levemente:** CPL baja de $16.72 (ayer) a $12.84 (hoy) con 1 lead en ambos días y gasto similar. Sigue muy por encima de la meta, pero no repite el pico crítico del 09-06/09-07.
-- **Pyme El Salvador acumula otro día en 0 leads** (van ya varios días de la racha intermitente descrita en notas anteriores), con el segundo mayor gasto del día ($12.51) sin resultados hasta el momento del pull. Sigue siendo la campaña con el CTR más bajo entre las activas junto con Beco GT.
-- **Odoo Test, normalmente la más eficiente, hoy no registra leads (parcial)** pese a tener el CTR más alto de la cuenta (1.49%) — a vigilar si cierra el día sin conversiones.
-- **CTR promedio de la cuenta sube levemente de 1.07% (ayer) a 1.15% (hoy)**, aún muy por debajo de la meta de 3-4%.
-- No hubo eventos en el activity log hoy, tercer día consecutivo sin ningún evento (ni manual ni automático de Meta) — se mantiene la pausa de refrescos automáticos (`asa_auto_custom_audience`) observada desde el 2026-09-06.
-- 5 campañas siguen en PAUSED sin actividad ni gasto — sin cambios respecto a días anteriores.
+- **⚠️ Corrección de datos vs. la lectura en vivo del mismo día:** la versión original de esta nota (pull parcial, día en curso) registraba 4 leads y CPL $10.06 promedio de cuenta ($40.24 de gasto). Con el pull de cierre vía Meta Ads API, los números finales son **6 leads, CPL $7.45 y $44.72 de gasto** — una corrección favorable, igual que el patrón del 09-07. Sin embargo, a nivel de campaña la corrección no fue uniforme: Beco GT en particular pasó de 3 leads (parcial) a **0 leads** (cierre) — el sentido contrario al total de cuenta.
+- **"Toma El control de tu pyme (GT)" logra su mejor resultado registrado:** CPL $5.09, dentro de la meta de $6-7 por primera vez desde que se documenta esta campaña en las notas. Es un cambio de tendencia notable para la campaña más problemática del proyecto (ver [[CLAUDE.md]]).
+- **Beco GT se invierte por completo:** después de ser la gran historia positiva de los días previos (3 leads / $3.53 CPL el 09-07), el cierre confirma 0 leads pese a $10.77 de gasto y el CTR más bajo de las campañas activas (1.10%).
+- **Odoo Test recupera su eficiencia histórica:** 2 leads a $2.96 USD de CPL, revirtiendo el día sin leads del 09-07.
+- **Pyme El Salvador corta su racha de 0 leads** (09-06 y 09-07) con 1 lead, aunque el CPL ($12.76) sigue siendo el más alto de las campañas activas.
+- **El CPL promedio de cuenta mejora a $7.45 USD (cierre) vs $10.17 USD el 09-07 (cerrado), una baja de ~-27%** — la mejor lectura de cierre registrada hasta ahora, muy cerca de la meta.
+- **CTR promedio de la cuenta sube de 1.13% (09-07) a 1.42% (09-08)**, la mejor lectura de cierre reciente, aunque aún por debajo de la meta de 3-4%.
+- **Se rompe la racha de días sin actividad en el activity log:** primer evento manual registrado desde antes del 2026-09-05 (ver Cambios Realizados). También se registró un evento automático de facturación de Meta a las 9:16 AM, sin relación con las campañas.
 
-### Comparación vs. ayer (2026-09-07, día cerrado)
+### Comparación vs. el día anterior (2026-09-07, cerrado)
 
-| Métrica | Ayer | Hoy (parcial) | Cambio |
+| Métrica | 2026-09-07 | 2026-09-08 (cierre final) | Cambio |
 |---------|------|----------------|--------|
-| Gasto Total | $48.70 USD | $40.24 USD | 🔻 -17% |
-| Leads Total | 3 | 4 | 🟢 +33% |
-| CPL Promedio | $16.23 USD | $10.06 USD | 🟢 -38% |
-| CTR Promedio | 1.07% | 1.15% | 🔺 +7% |
-| CPC Promedio | $0.42 USD | $0.41 USD | 🔻 -2% |
-| CPM Promedio | $4.46 USD | $4.70 USD | 🔺 +5% |
-| Impresiones | 10,928 | 8,555 | 🔻 -22% |
-| Clicks | 117 | 98 | 🔻 -16% |
-| Reach | 8,669 | 6,660 | 🔻 -23% |
+| Gasto Total | $40.69 USD | $44.72 USD | 🔺 +10% |
+| Leads Total | 4 | 6 | 🟢 +50% |
+| CPL Promedio | $10.17 USD | $7.45 USD | 🟢 -27% |
+| CTR Promedio | 1.13% | 1.42% | 🟢 +26% |
+| CPC Promedio | $0.42 USD | $0.33 USD | 🟢 -21% |
+| CPM Promedio | $4.70 USD | $4.75 USD | 🔺 +1% |
+| Impresiones | 8,660 | 9,410 | 🔺 +9% |
+| Clicks | 98 | 134 | 🔺 +37% |
+| Reach | 6,826 | 7,317 | 🔺 +7% |
 
-*Nota: los totales de hoy son parciales — el día sigue en curso al momento del pull, por lo que las cifras (especialmente leads y CPL) pueden variar levemente por ventanas de atribución que siguen cerrando después de las 24h. Los días anteriores (09-06, 09-07) mostraron que el cierre de datos puede mover el CPL de forma significativa en cualquier dirección.*
+*Nota: estos números reemplazan la comparación "vs. ayer" publicada en la versión parcial de esta nota (que usaba datos de 2026-09-08 aún incompletos: CPL $10.06, 4 leads, $40.24 de gasto). Los totales ya están cerrados vía pull directo a Meta Ads API.*
 
 ---
 
 ## ✏️ Cambios Realizados
 
-- **Ninguno hoy.** No hubo ajustes de presupuesto, pausas, nuevos copys ni cambios de targeting durante el día de hoy (2026-09-08). El activity log de la cuenta está vacío para la ventana del día.
-- Fuera de Meta Ads: ninguno. El repositorio de Git se encontró sincronizado (`main` al día con `origin/main`, sin cambios pendientes ni commits nuevos antes de esta nota).
+- **Cambio manual detectado (corrige la versión original de esta nota):** Gabriel Calderon pausó el anuncio "Odoo Test Reels" (dentro de la campaña [[Odoo Test]]) el 2026-09-08 a las 10:28 PM (GT), vía Power Editor — cambió su estado de "Pending Process" a "Inactive". No hubo cambios de presupuesto, targeting ni copys en ninguna campaña.
+- **Evento automático:** facturación de Meta a la cuenta ($217.00 USD) a las 9:16 AM (GT) — evento rutinario de la plataforma, sin relación con ajustes de campaña.
+- Fuera de Meta Ads: ninguno.
 
 ---
 
 ## 🔬 Investigación Realizada
 
-- Ninguna investigación de competencia, tendencias o recursos externos registrada hoy. Se realizó únicamente el pull automatizado de métricas vía Meta Ads API (cuenta, campañas activas y activity log) para esta nota de cierre.
+- Ninguna investigación de competencia, tendencias o recursos externos registrada este día. Se realizó el pull automatizado de métricas y del activity log vía Meta Ads API para esta nota de cierre.
 
 ---
 
-## 📊 Datos Clave del Día
+## 📊 Datos Clave del Día (cierre final)
 
 | Métrica | Valor | Meta | Status |
 |---------|-------|------|--------|
-| CPL Promedio | $10.06 USD (parcial) | $6-7 | 🟡 Por encima de meta, pero mejora fuerte vs ayer |
-| Gasto Total | $40.24 USD | - | - |
-| Leads Total | 4 (parcial) | 4-5 | 🟡 Cerca de meta |
-| CTR Promedio | 1.15% | 3-4% | 🔴 Bajo |
-| CPC Promedio | $0.41 USD | - | - |
-| Impresiones Total | 8,555 | - | - |
-| Clicks Total | 98 | - | - |
-| Reach Total | 6,660 | - | - |
+| CPL Promedio | $7.45 USD | $6-7 | 🟡 Ligeramente por encima de meta, mejor lectura de cierre en varios días |
+| Gasto Total | $44.72 USD | - | - |
+| Leads Total | 6 | 4-5 | 🟢 Por encima de meta |
+| CTR Promedio | 1.42% | 3-4% | 🔴 Bajo, pero mejor lectura reciente |
+| CPC Promedio | $0.33 USD | - | - |
+| Impresiones Total | 9,410 | - | - |
+| Clicks Total | 134 | - | - |
+| Reach Total | 7,317 | - | - |
 
-**Mejor campaña del día:** Beco GT — CPL $3.50 USD (dentro de meta) y mayor volumen de leads (3).
-**Campañas a vigilar:** Pyme El Salvador — 0 leads (aún) con el segundo mayor gasto del día; Odoo Test — sin leads pese a ser históricamente la más eficiente en CTR.
+**Mejor campaña del día:** Odoo Test — CPL $2.96 USD (dentro de meta); Toma El control de tu pyme (GT) — CPL $5.09 USD, su mejor resultado registrado.
+**Campaña a vigilar:** Beco GT — 0 leads tras dos días como la mejor campaña de la cuenta.
 
 ---
 
 ## ✅ Próximas Acciones
 
-- [ ] Confirmar al cierre real del día si el CPL promedio de cuenta ($10.06 parcial) se mantiene en mejora o corrige una vez cierren las ventanas de atribución
-- [ ] Investigar qué impulsó la mejora de Beco GT (3 leads / $3.50 CPL) para evaluar si es replicable en otras campañas o fue un pico puntual
-- [ ] Verificar si Pyme El Salvador cierra el día con 0 leads — si es así, evaluar pausar o refrescar el creativo dado el patrón recurrente de rachas sin conversión
-- [ ] Confirmar si Odoo Test cierra el día sin leads pese al buen CTR (1.49%), o si son ventanas de atribución aún abiertas
-- [ ] Generar el Reporte Performance formal de 2026-09-07 (pendiente, no se generó ese día)
-- [ ] Retomar sesión de trabajo activa para revisar desglose a nivel de anuncio (ad-level) en "Toma El control de tu pyme" y avanzar el A/B test de los 5 copys nuevos (pendiente desde 2026-08-24 según CLAUDE.md)
-- [ ] Investigar por qué el CTR promedio de la cuenta (1.15%) sigue muy por debajo de la meta de 3-4%, pese a la mejora leve de hoy
+- [x] ~~Confirmar al cierre real del día si el CPL promedio de cuenta ($10.06 parcial) se mantiene en mejora o corrige una vez cierren las ventanas de atribución~~ — confirmado: **mejoró aún más**, el cierre real muestra $7.45 USD (vs. $10.06 parcial), una baja adicional de -26%.
+- [x] ~~Investigar qué impulsó la mejora de Beco GT (3 leads / $3.50 CPL) para evaluar si es replicable~~ — reversión: el cierre confirma que Beco GT terminó el día en **0 leads**, no 3 como mostraba el pull parcial. Investigar la caída real, no la "mejora" original.
+- [x] ~~Verificar si Pyme El Salvador cierra el día con 0 leads~~ — no, cerró con 1 lead ($12.76 CPL), cortando la racha de dos días en 0.
+- [x] ~~Confirmar si Odoo Test cierra el día sin leads pese al buen CTR~~ — no, cerró con 2 leads ($2.96 CPL), revirtiendo el 0 leads del 09-07.
+- [ ] **Investigar la reversión de Beco GT** (3→0 leads) — confirmar si es una ventana de atribución aún abierta o una caída real de conversión.
+- [ ] **Revisar con el equipo el cambio manual del 09-08** — confirmar la intención detrás de pausar "Odoo Test Reels" y su impacto en la campaña Odoo Test.
+- [ ] Confirmar si la mejora de "Toma El control de tu pyme" (CPL $5.09, dentro de meta) es sostenible en los próximos días.
+- [ ] Generar el Reporte Performance formal de 2026-09-08 — completado, ver [[Reports/2026-09-08 - Reporte Performance]].
+- [ ] Retomar sesión de trabajo activa para revisar desglose a nivel de anuncio (ad-level) en "Toma El control de tu pyme" y avanzar el A/B test de los 5 copys nuevos (pendiente desde 2026-08-24 según CLAUDE.md).
+- [ ] Investigar por qué el CTR promedio de la cuenta (1.42%) sigue por debajo de la meta de 3-4%, pese a ser la mejor lectura de cierre reciente.
 
 ---
 
 ## 🔗 Enlaces
 
+- [[Reports/2026-09-08 - Reporte Performance]] - Reporte formal con desglose completo por campaña
 - [[Daily notes/2026-09-07 - Resumen del Dia]] - Resumen del día anterior
-- [[Reports/2026-09-06 - Reporte Performance]] - Reporte más reciente con desglose de campañas
+- [[Daily notes/2026-09-09 - Resumen del Dia]] - Resumen del día siguiente (usa una lectura aún parcial de este día como "ayer parcial"; revisar por la corrección aquí documentada)
 - [[campaigns/Adjustments/2026-09-04 - Updates]] - Ajustes de presupuesto de referencia
 
 #daily-note #summary #meta-ads #octopus
