@@ -6,91 +6,94 @@ tags: [daily-note, summary, meta-ads, octopus]
 
 # Resumen del Dia - 2026-09-14
 
-> [!warning] Tercera vez consecutiva — la rutina se dispara antes de medianoche en Guatemala
-> Esta nota se generó automáticamente al disparar la rutina programada de cierre de día. Al momento del pull (2026-09-14 05:51 UTC = **2026-09-13 23:51 hora de Guatemala, GMT-6**), el día calendario 2026-09-14 **todavía no ha comenzado** en la zona horaria de la cuenta de Meta Ads (GT | Octopus Innovations) — faltaban ~9 minutos para la medianoche de Guatemala. Por eso, la métrica `date_preset=today` de la API corresponde en realidad a **2026-09-13** (a falta de minutos para su cierre real), y el activity log de la cuenta para la ventana 2026-09-14 00:00–24:00 (GT) viene vacío porque esa ventana aún no ocurre.
->
-> Esta es la **tercera vez consecutiva** que esta rutina se dispara antes de la medianoche de Guatemala (ver también [[Daily notes/2026-09-13 - Resumen del Dia]] y [[Daily notes/2026-09-12 - Resumen del Dia]], mismo problema los dos días anteriores). El patrón es consistente: el disparo ocurre ~05:50-05:52 UTC, es decir ~8-10 minutos antes de medianoche GT, cada día. Se recomienda con más urgencia ajustar el horario de disparo de esta rutina (retrasarlo 20-30 minutos) para evitar que se repita una cuarta vez.
+> [!info] Nota sobre esta entrada — actualizada con el cierre real
+> Esta nota reemplaza una versión anterior generada prematuramente (el 2026-09-14 a las 05:52 UTC, ~8 minutos antes de medianoche en Guatemala), cuando el día calendario 2026-09-14 todavía no había iniciado en la zona horaria de la cuenta y no existía ninguna métrica propia que reportar. Esta versión se generó el 2026-09-15 a las 13:10 UTC (07:10 hora de Guatemala), con el día 2026-09-14 ya completamente cerrado, mediante un pull de métricas vía Meta Ads API (cuenta, campañas activas y activity log). Los totales de esta nota son el cierre final del día, no una lectura parcial.
 
 ---
 
 ## 🎯 Campañas Revisadas
 
-Sin datos propios (cerrados) de 2026-09-14 al momento del pull (el día no ha iniciado en GT). Como referencia, se capturó una lectura casi-final de **2026-09-13** (a ~9 min del cierre real, sujeta aún a cambios por ventana de atribución de leads):
+| Campaña | Status | Gasto | Leads | CPL | CTR |
+|---------|--------|-------|-------|-----|-----|
+| 🟢 Toma El control de tu pyme (GT) | ACTIVE | $16.09 USD | 3 | $5.36 USD | 1.69% |
+| 🟢 Odoo Test | ACTIVE | $5.39 USD | 1 | $5.39 USD | 1.74% |
+| 🔴 Beco GT | ACTIVE | $11.97 USD | 0 | No aplica | 0.95% |
+| 🟢 Pyme El Salvador | ACTIVE | $14.52 USD | 3 | $4.84 USD | 1.04% |
+| ⏸️ Toma El control de tu pyme (USA) | PAUSED | - | - | - | - |
+| ⏸️ Accurate Partners - Loyalti | PAUSED | - | - | - | - |
+| ⏸️ Conversión Clientes Potenciales - MX | PAUSED | - | - | - | - |
+| ⏸️ Conversión Clientes Potenciales - PY | PAUSED | - | - | - | - |
+| ⏸️ 🟡 CONVERSIÓN - CLIENTES POTENCIALES | PAUSED | - | - | - | - |
 
-| Campaña | Status | Gasto (parcial ~cierre 09-13) | Leads (parcial) | CTR |
-|---------|--------|-------------------------------|------------------|-----|
-| 🔴 Toma El control de tu pyme (GT) | ACTIVE | $16.59 | 0 (no disponible aún) | 1.31% |
-| 🟢 Odoo Test | ACTIVE | $6.06 | 1 | 0.77% |
-| 🟡 Beco GT | ACTIVE | $10.73 | 1 | 1.11% |
-| 🟡 Pyme El Salvador | ACTIVE | $14.77 | 1 | 0.95% |
-| ⏸️ Toma El control de tu pyme (USA) | PAUSED | - | - | - |
-| ⏸️ Accurate Partners - Loyalti | PAUSED | - | - | - |
-| ⏸️ Conversión Clientes Potenciales - MX | PAUSED | - | - | - |
-| ⏸️ Conversión Clientes Potenciales - PY | PAUSED | - | - | - |
-| ⏸️ 🟡 CONVERSIÓN - CLIENTES POTENCIALES | PAUSED | - | - | - |
-
-No se realizó ningún cambio manual (presupuesto, targeting, copys, pausas) durante esta sesión. El activity log de la cuenta para la ventana 2026-09-14 (GT) está vacío porque esa ventana todavía no transcurre. La ventana ya transcurrida de 2026-09-13 (GT) tampoco registra ningún evento en el activity log — ni cambios manuales ni automáticos de Meta — a diferencia de los dos días previos, que sí mostraban la creación automática de una audiencia personalizada (`asa_auto_custom_audience`).
+No se realizó ningún cambio manual (presupuesto, targeting, copys, pausas) durante el día. El activity log de la cuenta para la ventana 2026-09-14 00:00–24:00 (GT) registra únicamente 4 eventos automáticos de "Ad delivered" (Started delivery) generados por Meta para dos anuncios de Beco GT (`JUN - IMG - BECO Complejos GT` y `JUN - IMG - BECO Complejos GT_Group_1`) entre las 9:58 AM y 10:10 AM.
 
 ---
 
 ## 🔍 Análisis e Insights
 
-- Sin datos propios (cerrados) de 2026-09-14 que analizar — el día no ha iniciado en la zona horaria de la cuenta (GMT-6) al momento de esta ejecución automática.
-- La lectura casi-final de 2026-09-13 (a ~9 min del cierre real) muestra una **posible reversión frente al cierre oficial de 2026-09-12**: 3 leads parciales vs. 4 leads del cierre anterior, con un gasto mayor ($48.15 vs $40.40, +19.2%) y un CTR promedio más bajo (~1.08% vs 1.46%). Si se sostiene al cierre real, sería un retroceso — pero, como ya ocurrió el 2026-09-11 (6→2 leads parciales vs. finales), los leads parciales pueden revertirse fuertemente (en cualquier dirección) al cerrar la ventana de atribución, así que no debe tomarse como definitivo.
-- **"Toma El control de tu pyme (GT)" muestra 0 leads en la lectura parcial** (campo `results` en "Not available", a diferencia de las otras tres campañas que sí muestran 1 lead cada una). Es la campaña con mayor gasto del día ($16.59) y el CTR más alto (1.31%), por lo que un cierre en 0 leads sería preocupante — aunque dado que solo faltan minutos para el cierre, es posible que algún lead se registre aún por el delay habitual de atribución. Debe confirmarse con el cierre oficial antes de concluir nada.
-- **Odoo Test, Beco GT y Pyme El Salvador** muestran cada una 1 lead parcial con gasto similar (~$6-15), sin patrón claro de mejor/peor desempeño distinguible en esta lectura incompleta.
-- Ninguna investigación externa, de competencia o de tendencias se realizó en esta sesión — la sesión se limitó a intentar el pull de cierre de día, que resultó prematuro por **tercer día consecutivo**, reforzando la necesidad de ajustar el horario de la rutina.
+- **⭐ "Toma El control de tu pyme (GT)" se recupera de 0 leads a 3 leads con CPL $5.36**, dentro de la meta $6-7 y con el CTR más alto de la cuenta (1.69%). Confirma la mejora que ya se había anticipado en la lectura parcial de la noche anterior (ver [[Daily notes/2026-09-15 - Resumen del Dia]]). Es la campaña ancla del negocio, señalada como prioridad de optimización en [[CLAUDE.md]], y esta es la primera señal sólida de mejora desde que se detectó el problema de conversión click→lead (09-12: $14.99 CPL con 1 lead; 09-13: 0 leads).
+- **El CPL de cuenta mejora con fuerza vs. el cierre anterior:** $16.38 → $6.85 USD (-58.2%), entrando dentro de la meta $6-7 por primera vez en los cierres recientes. Los leads totales suben de 3 a 7, superando el rango de meta (4-5/día) — el mejor cierre de leads documentado hasta ahora.
+- **Pyme El Salvador logra su mejor cierre documentado**: 3 leads a $4.84 CPL, el mejor de la cuenta hoy, revirtiendo su historial de ser la campaña más débil e inconsistente del portafolio.
+- **Beco GT es la única campaña activa que cierra en 0 leads** hoy, pese a $11.97 de gasto — patrón similar al que mostró "Toma El control" el día anterior, sin señales de recuperación todavía.
+- **Odoo Test se mantiene estable** con 1 lead a $5.39 CPL, dentro de meta, sin cambios respecto a cierres previos.
+- **La lectura parcial tomada ~10 minutos antes de medianoche** (ver [[Daily notes/2026-09-15 - Resumen del Dia]]: 7 leads parciales, CPL implícito ~$6.16) resultó muy cercana al cierre oficial (7 leads, CPL $6.85) — la mejora se sostuvo, a diferencia de la fuerte reversión documentada el 2026-09-11.
+- **El CTR promedio de cuenta sube a 1.28%** (vs 1.06% del cierre anterior), aún por debajo de la meta 3-4%, pero mejorando junto con impresiones (+7.3%), clicks (+29.7%) y reach (+2.9%).
+- 5 campañas siguen en PAUSED sin actividad ni gasto — sin cambios respecto a días anteriores.
+
+### Comparación vs. ayer (2026-09-13, cierre final)
+
+| Métrica | Ayer (final) | Hoy (final) | Cambio |
+|---------|------|----------------|--------|
+| Gasto Total | $49.14 USD | $47.97 USD | 🔻 -2.4% |
+| Leads Total | 3 | 7 | 🟢 +133% |
+| CPL Promedio | $16.38 USD | $6.85 USD | 🟢 -58.2% |
+| CTR Promedio | 1.06% | 1.28% | 🟢 +20.8% |
+| CPC Promedio | $0.49 USD | $0.37 USD | 🟢 -24.5% |
+| CPM Promedio | $5.17 USD | $4.70 USD | 🟢 -9.1% |
+| Impresiones | 9,512 | 10,204 | 🔺 +7.3% |
+| Clicks | 101 | 131 | 🔺 +29.7% |
+| Reach | 7,500 | 7,719 | 🔺 +2.9% |
 
 ---
 
 ## ✏️ Cambios Realizados
 
-- **Ninguno.** No hubo ajustes de presupuesto, pausas, nuevos copys ni cambios de targeting en esta sesión ni en la ventana ya transcurrida (hasta el momento del pull) de 2026-09-13.
+- **Ninguno.** No hubo ajustes de presupuesto, pausas, nuevos copys ni cambios de targeting durante el día. El activity log de la cuenta solo registra 4 eventos automáticos de entrega de anuncios generados por Meta para Beco GT (ver sección de Campañas Revisadas).
 
 ---
 
 ## 🔬 Investigación Realizada
 
-- Ninguna. Esta sesión se limitó a verificar el estado de la cuenta, confirmar que el día 2026-09-14 aún no ha iniciado en la zona horaria de Guatemala, y capturar una lectura de referencia casi-final de 2026-09-13.
+- Ninguna investigación de competencia, tendencias o recursos externos en esta sesión. Se realizó el pull de cierre vía Meta Ads API (cuenta, campañas activas y activity log) para reemplazar la nota prematura generada el día anterior, y se generó el Reporte Performance formal correspondiente.
 
 ---
 
 ## 📊 Datos Clave del Día
 
-Sin datos propios (cerrados) de 2026-09-14 — el día no ha iniciado en GT al momento del pull. Lectura casi-final de 2026-09-13 (no oficial, sujeta a revisión por atribución):
+Ver [[Reports/2026-09-14 - Reporte Performance]] para el desglose completo por campaña y las recomendaciones accionables.
 
-| Métrica | 2026-09-13 (parcial ~cierre) | 2026-09-12 (cierre oficial) | Variación |
-|---------|------------------------------|------------------------------|-----------|
-| CPL Promedio | $16.05 | $10.10 | 🔴 +58.9% |
-| Gasto Total | $48.15 | $40.40 | 🔴 +19.2% |
-| Leads Total | 3 (parcial, posible revisión al alza) | 4 | 🔴 -25% |
-| CTR Promedio | ~1.08% | 1.46% | 🔴 empeora |
-| Impresiones | 9,285 | 7,521 | +23.5% |
-| Clicks | 100 | 110 | -9.1% |
-| Reach | 7,276 | 5,699 | +27.7% |
-
-Para el último cierre oficial confirmado, ver [[Daily notes/2026-09-12 - Resumen del Dia]] y [[Reports/2026-09-12 - Reporte Performance]].
+**Mejor campaña del día:** Pyme El Salvador — CPL $4.84 USD, 3 leads, su mejor cierre documentado.
+**Campaña a vigilar:** Beco GT — 0 leads pese a $11.97 de gasto, la única campaña activa sin conversión hoy.
 
 ---
 
 ## ✅ Próximas Acciones
 
-- [ ] Re-ejecutar el pull de cierre una vez el día 2026-09-14 haya transcurrido realmente en horario de Guatemala (GMT-6), para capturar sus métricas reales
-- [ ] **Ajustar el horario de disparo de esta rutina de forma prioritaria** — tercer día consecutivo disparando ~8-10 min antes de medianoche GT; retrasar el disparo 20-30 minutos para evitar una cuarta repetición
-- [ ] Confirmar si la posible reversión parcial de 2026-09-13 (3 leads, CPL $16.05) se sostiene al cierre oficial o mejora como ocurrió el 2026-09-12 tras una lectura similar — generar el Reporte Performance formal de 2026-09-13 una vez haya datos de cierre confirmados
-- [ ] Verificar específicamente el cierre de "Toma El control de tu pyme (GT)" — la lectura parcial de hoy la muestra en 0 leads pese a ser la campaña con mayor gasto y mejor CTR del día
-- [ ] Investigar la volatilidad extrema de "Toma El control de tu pyme" (CPL $2.76 → $12.15 → $7.68 → $14.99 documentada en días previos) para entender si responde a fatiga de creativo/audiencia o es ruido estadístico normal en bajo volumen
-- [ ] Evaluar si Pyme El Salvador y Beco GT deben pausarse o rediseñarse — patrón histórico de CTR bajo y leads inconsistentes
-- [ ] Retomar sesión de trabajo activa para revisar desglose a nivel de anuncio (ad-level) en "Toma El control de tu pyme" y avanzar el A/B test de los 5 copys nuevos (pendiente desde 2026-08-24 según CLAUDE.md)
-- [ ] Investigar por qué el CTR promedio de la cuenta sigue muy por debajo de la meta de 3-4%
+- [ ] **Confirmar con un segundo día de datos si la recuperación de "Toma El control de tu pyme (GT)" se sostiene** antes de bajar la prioridad del A/B test de los 5 copys nuevos (pendiente desde 2026-08-24 según CLAUDE.md)
+- [ ] Investigar por qué Beco GT cerró en 0 leads pese a $11.97 de gasto, siendo hoy la única campaña activa sin conversión
+- [ ] Documentar y monitorear la mejora de Pyme El Salvador (mejor cierre documentado, $4.84 CPL) para confirmar si es sostenible
+- [ ] Evaluar si conviene incrementar presupuesto en las campañas que están funcionando bien, aprovechando el momentum de la cuenta (CPL dentro de meta, leads por encima de meta)
+- [ ] Seguir revisando el CTR promedio de la cuenta (1.28%), que aunque mejora, sigue muy por debajo de la meta de 3-4%
+- [ ] Retomar sesión de trabajo activa para revisar desglose a nivel de anuncio (ad-level) y avanzar el A/B test de los 5 copys nuevos (pendiente desde 2026-08-24 según CLAUDE.md)
 
 ---
 
 ## 🔗 Enlaces
 
-- [[Daily notes/2026-09-13 - Resumen del Dia]] - Resumen del día anterior (mismo problema de timing de la rutina, segunda ocurrencia)
-- [[Daily notes/2026-09-12 - Resumen del Dia]] - Último cierre oficial documentado con Reporte Performance formal
-- [[Reports/2026-09-12 - Reporte Performance]] - Reporte formal más reciente
+- [[Reports/2026-09-14 - Reporte Performance]] - Reporte formal de hoy (recién generado)
+- [[Daily notes/2026-09-15 - Resumen del Dia]] - Nota con la lectura parcial de este día (previa al cierre real)
+- [[Daily notes/2026-09-13 - Resumen del Dia]] - Resumen del día anterior
+- [[Reports/2026-09-13 - Reporte Performance]] - Reporte de cierre anterior
 - [[campaigns/Adjustments/2026-09-04 - Updates]] - Ajustes de presupuesto de referencia
 
 #daily-note #summary #meta-ads #octopus
