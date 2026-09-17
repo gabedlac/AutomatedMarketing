@@ -51,7 +51,7 @@ Posicionar **Odoo Enterprise** como la solución ERP empresarial confiable, esca
 ### Canales de Promoción
 | Canal | Frecuencia | Tipo de Contenido |
 |-------|-----------|-------------------|
-| **LinkedIn** | 3-4 posts/semana | Whitepapers, case studies, thought leadership, webinars |
+| **LinkedIn** | 1 artículo/semana | Whitepapers, case studies, thought leadership, webinars |
 
 ### Estrategia LinkedIn
 
@@ -63,11 +63,12 @@ Posicionar **Odoo Enterprise** como la solución ERP empresarial confiable, esca
 - Consultores empresariales
 
 **Contenido Prioritario:**
+- **LinkedIn Articles** (1 por semana) - Posts largos de thought leadership
 - ROI y casos de estudio (números concretos)
 - Transformación digital de empresas
 - Tendencias de industria
-- Expertise y thought leadership
-- Webinars y whitepapers
+- Expertise y análisis profundo
+- Whitepapers y guías descargables
 - Testimonios ejecutivos
 
 **Tono:**
@@ -75,6 +76,8 @@ Posicionar **Odoo Enterprise** como la solución ERP empresarial confiable, esca
 - Basado en datos y resultados
 - Ejecutivo
 - Orientado a valor y ROI
+
+**Frecuencia:** 1 LinkedIn Article publicado semanalmente (recomendado: martes o miércoles)
 
 ---
 
@@ -122,11 +125,18 @@ Posicionar **Odoo Enterprise** como la solución ERP empresarial confiable, esca
 
 ## 📈 Métricas de Éxito
 
-- Conexiones relevantes B2B: 500+/mes
-- Engagement rate: >3% (LinkedIn estándar)
-- Leads empresariales cualificados: 10-15/mes
-- Conversión a propuesta: 20-30%
+**LinkedIn (1 Article/semana = 4-5 artículos/mes):**
+- Vistas de artículos: 2,000-3,000 por mes
+- Engagement rate: >4% (articles suelen tener mayor engagement)
+- Comentarios y discussiones: 20-30 por mes
+- Conexiones B2B cualificadas: 50-75/mes
+
+**Conversión B2B:**
+- Leads empresariales cualificados: 8-12/mes
+- Conversión a propuesta: 25-35%
+- Conversión a cliente: 15-20%
 - Valor promedio de contrato: $15,000-50,000 USD
+- Ciclo de venta: 3-6 meses
 
 ---
 

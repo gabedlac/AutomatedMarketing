@@ -10,14 +10,15 @@ status: En Desarrollo
 
 ## 📋 Descripción General
 
-**Odoo Community** es la versión open-source del ERP Odoo, diseñada para pequeñas y medianas empresas que buscan automatizar sus procesos de negocio sin inversión de licencias.
+**Odoo Community** es la versión open-source del ERP Odoo, diseñada para pequeñas y medianas empresas que buscan automatizar sus procesos de negocio con una inversión accesible en implementación.
 
 ### Características Principales
 - ERP completo de código abierto
 - Módulos escalables (Ventas, Compras, CRM, Contabilidad, Inventario, etc.)
 - Comunidad activa de desarrolladores
 - Actualizaciones continuas
-- Sin costos de licencias
+- Modelo de licencias abierto y flexible
+- Implementación e integración personalizada desde **Q490/mes**
 
 ### Para Quién Es
 - Pequeños negocios (1-50 empleados)
@@ -31,7 +32,7 @@ status: En Desarrollo
 ## 🎯 Objetivos de Promoción
 
 ### Objetivo Principal
-Posicionar **Odoo Community** como la solución ideal para pequeños negocios que buscan un ERP potente sin costo de licencias.
+Posicionar **Odoo Community** como la solución ERP más accesible y potente para pequeños negocios, con implementación desde Q490/mes.
 
 ### Objetivos Secundarios
 1. Aumentar conocimiento de marca entre emprendedores y pymes
@@ -46,26 +47,29 @@ Posicionar **Odoo Community** como la solución ideal para pequeños negocios qu
 ### Canales de Promoción
 | Canal | Frecuencia | Tipo de Contenido |
 |-------|-----------|-------------------|
-| **Facebook** | 3-4 posts/semana | Casos de uso, testimonios, tips, webinars |
-| **Instagram** | 3-4 posts/semana | Reels cortos, infografías, historias de éxito |
-| **TikTok** | 2-3 videos/semana | Videos educativos cortos, demos rápidas, humor tech |
+| **Facebook** | 2 posts/semana | Casos de uso, testimonios, tips, webinars |
+| **Instagram** | 2 posts/semana + 1 reel/semana | Posts educativos, reels cortos, infografías |
+| **TikTok** | 4 videos/semana | Videos educativos cortos, demos rápidas, humor tech |
 
 ### Estrategia por Canal
 
 **Facebook:**
-- Público: Emprendedores, propietarios de pymes, administradores
+- Público: Emprendedores, propietarios de pymes, administradores (25-55 años)
 - Contenido: Artículos educativos, casos de uso detallados, webinars, promociones
 - Tono: Profesional + accesible
+- **Frecuencia:** Lunes y Jueves (2 posts/semana)
 
 **Instagram:**
-- Público: Emprendedores jóvenes, startuperos, profesionales
-- Contenido: Reels con tips rápidos, carruseles educativos, historias de éxito visual
+- Público: Emprendedores jóvenes, startuperos, profesionales (20-45 años)
+- Contenido: 2 posts + 1 reel semanal (Reels con tips rápidos, carruseles educativos, historias de éxito visual)
 - Tono: Moderno, dinámico, inspirador
+- **Frecuencia:** Martes, Jueves (posts) + Miércoles (reel)
 
 **TikTok:**
-- Público: Emprendedores nuevos, generación joven en negocios
-- Contenido: Videos educativos cortos (15-60 seg), demostraciones rápidas, humor
+- Público: Emprendedores nuevos, generación joven en negocios (18-40 años)
+- Contenido: Videos educativos cortos (15-60 seg), demostraciones rápidas, humor tech
 - Tono: Casual, entretenido, accesible
+- **Frecuencia:** 4 videos por semana (lunes, martes, miércoles, viernes)
 
 ---
 
@@ -100,24 +104,37 @@ Posicionar **Odoo Community** como la solución ideal para pequeños negocios qu
 ## 🎬 Ejemplos de Contenido
 
 **Facebook Post Educativo:**
-"¿Cansado de usar Excel para tu inventario? Odoo Community permite gestionar stock, alertas de reorden y reportes en tiempo real. ¿Cómo lo implementamos? 👇"
+"¿Cansado de usar Excel para tu inventario? Odoo Community permite gestionar stock, alertas de reorden y reportes en tiempo real. Implementación desde Q490/mes. ¿Cómo lo implementamos? 👇"
 
 **Instagram Reel:**
-"Gestiona tu CRM en 60 segundos con Odoo Community. Sin pagar licencias. Sin complicaciones. ¡Mira cómo! 🚀"
+"Gestiona tu CRM en 60 segundos con Odoo Community. Accesible, poderoso, escalable. ¡Mira cómo! 🚀"
+
+**Instagram Post (Carrusel):**
+"3 razones por las que Odoo Community es perfecto para tu pyme:
+1️⃣ Módulos completos (CRM, Ventas, Inventario, Contabilidad)
+2️⃣ Implementación accesible desde Q490/mes
+3️⃣ Personalización total según tu negocio
+¿Listo para crecer? 📈"
 
 **TikTok Video:**
 "Antes: Excel desorganizado + procesos manuales 📊
 Después: Odoo automático + reportes en tiempo real 📈
-¿Listo para cambiar? 💪"
+Implementación desde Q490/mes. ¿Listo para cambiar? 💪"
 
 ---
 
 ## 📈 Métricas de Éxito
 
-- Reach mensual: 5,000+ personas
-- Engagement rate: >5%
-- Leads generados: 20-30/mes
-- Conversión a implementación: 10-15%
+**Social Media Mensual:**
+- Reach: 8,000-10,000 personas (2 posts + 1 reel/semana en IG, 2 posts/semana en FB, 4 videos/semana en TikTok)
+- Engagement rate: >6%
+- Saves/Shares de contenido educativo: 100+
+
+**Conversión:**
+- Leads generados: 25-35/mes
+- Conversión a demo: 30-40%
+- Conversión a implementación: 15-20%
+- Valor promedio de contrato: Q490-2,000/mes
 
 ---
 

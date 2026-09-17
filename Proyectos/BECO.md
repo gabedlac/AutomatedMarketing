@@ -127,27 +127,27 @@ Posicionar **BECO** como la solución integral para administradores de propiedad
 |-------|-----------|-------------------|
 | **Facebook** | 1 post/semana | Casos de uso, tips administrativos, testimonios |
 | **Instagram** | 1 post/semana | Infografías, reels educativos, historias de éxito |
-| **TikTok** | Ocasional (1 video/mes aprox.) | Videos virales sobre problemas comunes, demos rápidas |
+| **TikTok** | 1 video/semana | Videos virales sobre problemas comunes, demos rápidas, humor |
 
 ### Estrategia por Canal
 
 **Facebook:**
-- Público: Administradores de propiedades, gerentes inmobiliarios, directores de property management
+- Público: Administradores de propiedades, gerentes inmobiliarios, directores de property management (30-60 años)
 - Contenido: Soluciones a problemas específicos, casos de uso detallados, testimonios, webinars cortos
 - Tono: Profesional, enfocado en soluciones prácticas
-- Frecuencia: 1 publicación por semana (consistencia es clave)
+- Frecuencia: 1 publicación por semana (recomendado: martes o jueves)
 
 **Instagram:**
-- Público: Profesionales jóvenes en sector inmobiliario, emprendedores en property management
+- Público: Profesionales jóvenes en sector inmobiliario, emprendedores en property management (25-50 años)
 - Contenido: Infografías de problemas/soluciones, reels educativos de 30-60 seg, carruseles sobre features
 - Tono: Moderno, visual, profesional
-- Frecuencia: 1 publicación por semana
+- Frecuencia: 1 publicación por semana (recomendado: miércoles o viernes)
 
 **TikTok:**
-- Público: Generación más joven en sector inmobiliario, early adopters de tech
-- Contenido: Videos cortos y virales sobre problemas comunes (Excel, manuales), demos rápidas, humor
+- Público: Generación más joven en sector inmobiliario, early adopters de tech (18-40 años)
+- Contenido: Videos cortos y virales sobre problemas comunes (Excel, manuales), demos rápidas, humor relatable
 - Tono: Casual, entendible, entretenido
-- Frecuencia: 1 video cada 4 semanas (ocasional pero presente)
+- Frecuencia: 1 video por semana (recomendado: lunes o jueves)
 
 ---
 
@@ -268,4 +268,5 @@ Slide 3: "Cómo BECO lo resuelve"
 
 **Última Actualización:** 2026-09-17  
 **Estado:** En Desarrollo  
-**Frecuencia de Publicación:** 1 post/semana (Facebook + Instagram) + Ocasional TikTok
+**Frecuencia de Publicación:** 1 post/semana (Facebook + Instagram) + 1 video/semana (TikTok)  
+**Total Semanal:** 3 publicaciones (1 FB + 1 IG + 1 TikTok)
