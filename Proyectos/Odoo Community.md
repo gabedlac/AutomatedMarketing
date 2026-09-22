@@ -134,7 +134,7 @@ Implementación desde Q490/mes. ¿Listo para cambiar? 💪"
 - Leads generados: 25-35/mes
 - Conversión a demo: 30-40%
 - Conversión a implementación: 15-20%
-- Valor promedio de contrato: Q490-2,000/mes
+- Valor promedio de contrato: Q490/mes
 
 ---
 
