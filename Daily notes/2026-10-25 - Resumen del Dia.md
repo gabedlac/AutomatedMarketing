@@ -89,5 +89,6 @@ Ninguno. No se ejecutó ningún ajuste de presupuesto, targeting, creativo ni co
 ## 🔗 Enlaces
 
 - [[Reports/2026-10-23 - Reporte Performance]] — último Reporte Performance generado (sin datos, mismo bloqueo); no existe aún reporte de 2026-10-24 porque la rutina de las 7 AM GT de hoy no se ha ejecutado al momento de escribir esta nota.
+- [[Reports/2026-10-25 - Reporte Performance]] — Reporte Performance de este mismo día, generado después por la rutina matutina (2026-10-26, 07:19 GT); mismo bloqueo, sin datos.
 - [[Daily notes/2026-10-24 - Resumen del Dia]] — resumen del día anterior (mismo bloqueo, primer día documentado).
 - Tags: #daily-note #summary #meta-ads #octopus
