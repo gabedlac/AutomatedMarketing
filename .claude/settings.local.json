@@ -28,7 +28,8 @@
       "Bash(git commit -m 'Fix: Regenerate 19 reports with correct UTF-8 encoding *)",
       "Bash(git commit -m 'Update 2026-08-28 report with ad-level breakdown *)",
       "Bash(git pull *)",
-      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\edyga\\\\Documents\\\\Automated Meta Marketing\\\\Articles\" -Force)"
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\edyga\\\\Documents\\\\Automated Meta Marketing\\\\Articles\" -Force)",
+      "PowerShell(python3 C:\\\\Users\\\\edyga\\\\AppData\\\\Local\\\\Temp\\\\extract_beco.py)"
     ]
   }
 }

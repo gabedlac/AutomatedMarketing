@@ -64,10 +64,10 @@ date-created: 2026-08-25
 
 | Item | Valor |
 |------|-------|
-| Ad Account ID | 2530001557366648 |
-| Business | Octopus Innovations |
-| Email | gabedlac@icloud.com |
-| Zona Horaria | GMT-6 (Guatemala) |
+| Ad Account ID | <AD_ACCOUNT_ID> |
+| Business | <NEGOCIO> |
+| Email | <EMAIL> |
+| Zona Horaria | <ZONA_HORARIA> |
 
 ---
 

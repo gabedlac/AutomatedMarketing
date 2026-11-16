@@ -4,7 +4,7 @@ campaign-name:
 status: [Planificación/Activa/Pausa/Completada]
 start-date: 
 end-date: 
-account: GT | Octopus Innovations
+account: <NOMBRE_CUENTA>
 ---
 
 # {{campaign-name}}

@@ -11,7 +11,7 @@ tags: [campaign-update, adjustments]
 
 | Cambio | Campaña/Anuncio | Antes | Después | Razón |
 |--------|-----------------|-------|---------|-------|
-| Ejemplo | AD Pyme Excel | $5/día | $7.50/día | CPL bajo, escalar ganador |
+| Ejemplo | AD Ejemplo | $5/día | $7.50/día | CPL bajo, escalar ganador |
 
 ## 🎯 Cambios Detallados
 
@@ -60,5 +60,5 @@ Análisis que justifica el cambio:
 ---
 
 Generado por: Claude Code
-Cuenta: GT | Octopus Innovations (2530001557366648)
-Tags: #campaign-adjustments #meta-ads #octopus
+Cuenta: <NOMBRE_CUENTA> (<AD_ACCOUNT_ID>)
+Tags: #campaign-adjustments #meta-ads

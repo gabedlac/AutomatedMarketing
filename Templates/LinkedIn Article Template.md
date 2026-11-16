@@ -23,10 +23,10 @@ metadata:
 |-------|-------------|
 | **Tipo de Contenido** | Educational / Inspirational / Practical / Strategic |
 | **Objetivo** | Awareness / Engagement / Lead Generation |
-| **Audiencia Target** | (ej: Dueños PyMEs, Gerentes de Operaciones) |
+| **Audiencia Target** | (ej: dueños de negocio, gerentes) |
 | **Lead Magnet Asociado** | (ej: Descargable, Calculadora, Checklist) |
 | **CTA Principal** | (ej: "Descarga...", "Agenda demo", "Hablemos") |
-| **Industria Enfoque** | Odoo / ERP / Automatización |
+| **Industria Enfoque** | (ej: tu industria o vertical) |
 
 ---
 
@@ -110,4 +110,4 @@ metadata:
 
 **Última actualización:** [[DATE]]  
 **Autor:** Edy Gabriel  
-**Email:** gabedlac@icloud.com
+**Email:** <EMAIL>

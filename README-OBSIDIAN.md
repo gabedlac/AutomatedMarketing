@@ -150,9 +150,9 @@ Después de crear la bóveda:
 
 ## 📞 Contacto
 
-- Email: gabedlac@icloud.com
-- Cuenta: GT | Octopus Innovations (2530001557366648)
-- Zona: Guatemala (GMT-6)
+- Email: <EMAIL>
+- Cuenta: <NOMBRE_CUENTA> (<AD_ACCOUNT_ID>)
+- Zona: <ZONA_HORARIA>
 
 ---
 
