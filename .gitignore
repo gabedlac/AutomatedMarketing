@@ -36,9 +36,9 @@ credentials/
 *.pem
 *.p12
 
-# Carpeta de scratch/temporal
-AppData/Local/Temp/
-
 # Archivos de lock (mantener)
 # package-lock.json
 # poetry.lock
+
+# Configuración local de Claude Code (específica de cada equipo)
+.claude/settings.local.json

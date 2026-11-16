@@ -1,6 +1,5 @@
 ---
 tags: [resources, links]
-date-created: 2026-08-25
 ---
 
 # 🔗 Links Útiles
@@ -65,10 +64,7 @@ date-created: 2026-08-25
 | Item | Valor |
 |------|-------|
 | Ad Account ID | <AD_ACCOUNT_ID> |
-| Business | <NEGOCIO> |
+| Business | <NOMBRE_NEGOCIO> |
 | Email | <EMAIL> |
 | Zona Horaria | <ZONA_HORARIA> |
 
----
-
-**Última actualización:** 2026-08-25

@@ -5,7 +5,7 @@
 ### ✨ Primer Paso: Abrir en Obsidian
 1. Abre Obsidian
 2. Click en "Abrir una bóveda"
-3. Selecciona esta carpeta: `C:\Users\edyga\Documents\Automated Meta Marketing`
+3. Selecciona la carpeta donde clonaste este repositorio
 4. ¡Listo! Tu bóveda está activa
 
 ### 📌 Puntos de Entrada
@@ -37,9 +37,9 @@
 ## 🗂️ Estructura Explicada
 
 ```
-📁 Automated Meta Marketing
+📁 Bóveda de marketing
 ├── 📄 cloud.md              ⭐ INICIO (índice principal)
-├── 📄 CLAUDE.md             (instrucciones del proyecto)
+├── 📄 CLAUDE.md             (instrucciones del proyecto y configuración)
 │
 ├── 📁 Daily notes           (notas diarias)
 ├── 📁 Campaigns             (historial de campañas)
@@ -49,6 +49,9 @@
 ├── 📁 Ideas                 (ideas nuevas)
 ├── 📁 Inbox                 (captura rápida)
 ├── 📁 Benchmarking          (análisis competitivo)
+├── 📁 Reports               (reportes diarios/semanales/mensuales)
+├── 📁 Organic               (calendario de contenido orgánico)
+├── 📁 Articles              (artículos: LinkedIn, blog)
 ├── 📁 Resources             (recursos útiles)
 └── 📁 Templates             (plantillas reutilizables)
 ```
@@ -86,7 +89,7 @@ Para conectar ideas y crear red de conocimiento:
 
 Ejemplo:
 ```
-Esta campaña está relacionada con [[Idea: Mejorar CTR]] y [[Research: Tendencias 2026]]
+Esta campaña está relacionada con [[Idea: Mejorar CTR]] y [[Research: Tendencias del sector]]
 ```
 
 ---
@@ -102,11 +105,13 @@ Esta campaña está relacionada con [[Idea: Mejorar CTR]] y [[Research: Tendenci
 ## 📊 Métricas a Monitorear
 
 En cada nota diaria documenta:
-- **CPL** (Costo por Lead) - Meta: $6-7
-- **CTR** (Click Through Rate) - Meta: 3-4%
-- **Leads/día** - Meta: 4-5
+- **CPL / CPA** (Costo por Lead / por Adquisición)
+- **CTR** (Click Through Rate)
+- **Leads / ventas por día**
 - **ROAS** (Return on Ad Spend)
 - **Gasto diario**
+
+> Los objetivos de cada métrica se definen en la sección "Objetivos y KPIs" de [[CLAUDE.md]].
 
 ---
 
@@ -138,7 +143,7 @@ Después de crear la bóveda:
 → En carpeta [[Resources]], con link en tu nota
 
 **¿Cómo organizo por fecha?**
-→ Usa formato `2026-08-25-Nota` en Daily notes
+→ Usa formato `YYYY-MM-DD-Nota` en Daily notes (ej. `2026-01-15-Nota`)
 
 **¿Puedo exportar notas?**
 → Sí, Obsidian permite exportar a PDF, Word
@@ -156,7 +161,6 @@ Después de crear la bóveda:
 
 ---
 
-**Actualizado:** 2026-08-25  
 **Bóveda versión:** 1.0
 
 ¡Bienvenido a tu segundo cerebro de marketing! 🚀

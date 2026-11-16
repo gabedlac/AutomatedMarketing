@@ -29,10 +29,9 @@ Sistema de automatización de marketing en Meta Ads (Facebook/Instagram), aplica
 ---
 
 ## 🎨 Skills Recomendadas
-- `/skill obsidian` - Documentar lecciones, notas de campañas y análisis
-- `/design` - Crear creativos para ads
-- `/xlsx` - Analizar datos de campañas en Excel
-- `/dataviz` - Dashboards de métricas
+- `obsidian-markdown` / `obsidian-cli` - Documentar lecciones, notas de campañas y análisis en la bóveda
+- `xlsx` - Analizar datos de campañas en Excel
+- `dataviz` - Gráficas y dashboards de métricas
 
 ---
 

@@ -11,7 +11,7 @@ metadata:
 # [TÍTULO DEL ARTÍCULO]
 
 **Plataforma:** LinkedIn  
-**Fecha de Creación:** [[DATE]]  
+**Fecha de Creación:** {{date:YYYY-MM-DD}}  
 **Estado:** 🔴 Borrador / 🟡 En revisión / 🟢 Publicado  
 **Fecha de Publicación:** [FECHA]  
 
@@ -108,6 +108,6 @@ metadata:
 
 ---
 
-**Última actualización:** [[DATE]]  
-**Autor:** Edy Gabriel  
-**Email:** <EMAIL>
+**Última actualización:** {{date:YYYY-MM-DD}}  
+**Autor:** `<AUTOR>`  
+**Email:** `<EMAIL>`

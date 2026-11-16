@@ -54,7 +54,7 @@ Registra aquí cada campaña activa con su estado y métricas (usa [[Campaign Te
 | [[Benchmarking]] | Benchmarks y análisis competitivo | [[Benchmarking Template]] |
 | [[Resources]] | Links y documentación | — |
 | [[Reports]] | Reportes diarios/semanales/mensuales | [[Report Template]] |
-| [[Organic]] | Calendario de contenido orgánico | [[Template - Meta Organic]] |
+| [[Organic]] | Calendario de contenido orgánico | — |
 | [[Articles]] | Artículos (LinkedIn, blog) | [[LinkedIn Article Template]] |
 
 ---
