@@ -6,6 +6,9 @@ tags: [daily-note, summary, meta-ads, octopus]
 
 # Resumen del Dia - 2026-11-18
 
+> [!warning] Ver también
+> Esta nota (generada a las 05:51 UTC del 18-nov, antes de la medianoche real de la cuenta) documenta en realidad el día **2026-11-17**, no el 2026-11-18. La versión final y verificada de esos mismos datos, ya con el día cerrado, está en [[Daily notes/2026-11-17 - Resumen del Dia]] y en [[Reports/2026-11-17 - Reporte Performance]]. El 2026-11-18 todavía no tiene datos cerrados al momento de esta corrección.
+
 > [!info] Nota sobre los datos y la fecha
 > Esta rutina se ejecutó a las 05:51 UTC (≈ 23:51 del 2026-11-17 en `America/Guatemala`, zona horaria de la cuenta). A esa hora el día local de la cuenta **todavía no cambiaba a 2026-11-18** (confirmado: `date_preset=today` en `ads_get_ad_entities` resolvió a 2026-11-17, idéntico a una consulta explícita con `time_range={"since":"2026-11-18","until":"2026-11-18"}`, que devolvió las campañas sin ninguna métrica porque ese día aún no había comenzado en la zona horaria de la cuenta). Por lo tanto, los datos de "hoy" en esta nota corresponden en realidad al día **2026-11-17** (prácticamente cerrado, faltaban ~9 minutos) de la cuenta `act_2530001557366648` (GT | Octopus Innovations), y los de "ayer" a **2026-11-16** (cierre maduro, consistente con el Reporte Performance ya publicado). Se mantiene el nombre de archivo `2026-11-18` siguiendo el mismo patrón de todas las rutinas anteriores (fecha del sistema al momento de ejecutarse). `ads_account_get_activity_logs` para el rango 2026-11-17 00:00–24:00 (America/Guatemala) solo registró un evento automático de Meta ("Account billed", $720.00 USD), sin cambios manuales de presupuesto, targeting ni creativo. No se encontró `HEAD` desprendido ni rama desactualizada al iniciar la rutina (`git status` limpio, `main` al día con `origin/main`).
 
