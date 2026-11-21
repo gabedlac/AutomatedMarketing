@@ -10,22 +10,26 @@ tags: [daily-note, summary, meta-ads, octopus]
 > Esta rutina se ejecutó a las **~05:52 UTC del 21-nov** (≈ 23:52 del 2026-11-20 en `America/Guatemala`, zona horaria de la cuenta `act_2530001557366648`). A esa hora el día local de la cuenta **todavía no cambiaba a 2026-11-21** (faltaban ~8 minutos): `date_preset=today` resolvió a **2026-11-20** y `date_preset=yesterday` resolvió a **2026-11-19** (datos finales, consistentes con [[Reports/2026-11-19 - Reporte Performance]]). Por lo tanto, los datos de "hoy" en esta nota corresponden en realidad al día **2026-11-20** (provisional, faltan ~8 minutos de cierre) y la comparación es contra **2026-11-19** (final, verificado). Se mantiene el nombre de archivo `2026-11-21` siguiendo el mismo patrón de rutinas anteriores (fecha del sistema al momento de ejecutarse) — mismo desajuste ya documentado en las notas del 18, 19 y 20-nov. Es probable que una rutina posterior corrija esta nota con los números finales una vez cierre formalmente el día.
 >
 > **Hallazgo de higiene de repo corregido en esta rutina:** al iniciar, `HEAD` estaba detached en el commit `a1402ea` ("Add Daily Performance Report - 2026-11-19"), con la rama local `main` 6 commits por detrás (todavía en `23360d1`, el reporte del 16-nov), aunque `origin/main` ya estaba sincronizado en `a1402ea`. Se verificó que era un fast-forward limpio (`main` ancestro directo de `HEAD`) y se corrigió: `git checkout main && git merge --ff-only a1402ea` (push resultó en "Everything up-to-date", confirmando que solo era un desajuste de la copia local, no una falta de push).
+>
+> **Corrección posterior (rutina del 21-nov, día ya cerrado formalmente):** las cifras de esta nota eran **provisionales** (faltaban ~8 min de cierre). Se verificaron contra `date_preset=yesterday` y un `time_range` explícito para 2026-11-20, ambos idénticos entre sí → datos finales confirmados, sin el desajuste de minutos de rutinas anteriores. Se actualizó la tabla "Datos Clave del Día" y la tabla de campañas con los números finales: gasto $83.45 → **$84.68** (+$1.23 por atribución tardía), CPL $11.92 → **$12.10**, CTR 1.90% → **1.90%** (sin cambio real), impresiones 10,813 → **10,976**, clicks 205 → **208**; leads sin cambio (7). El detalle completo y verificado, incluyendo el desglose final por campaña, está en [[Reports/2026-11-20 - Reporte Performance]].
+>
+> **Segundo hallazgo de higiene de repo (rutina del 21-nov):** al iniciar esta corrección, `HEAD` volvía a estar detached, en el commit `369e77e` ("Add Daily Summary - 2026-11-21"), con la rama local `main` 6 commits por detrás (todavía en `23360d1`). `origin/main` ya estaba sincronizado en `369e77e` — fue solo un desajuste de la copia local, no una falta de push. Se corrigió con `git checkout main && git merge --ff-only 369e77e` (push resultó en "Everything up-to-date").
 
 ---
 
 ## 🎯 Campañas Revisadas
 
-Se revisaron las 7 campañas activas de lead-gen + 1 de evento vía `ads_get_ad_entities` (nivel campaña, `date_preset=today`, equivalente a 2026-11-20 casi cerrado en zona horaria de la cuenta):
+**[Actualizado con datos finales — ver advertencia arriba]** Se revisaron las 7 campañas activas de lead-gen + 1 de evento vía `ads_get_ad_entities` (nivel campaña, `date_preset=yesterday`, 2026-11-20, día cerrado y verificado contra `time_range` explícito):
 
 | Campaña | Status | Gasto | Impresiones | Clicks | CTR | Leads | CPL |
 |---|---|---|---|---|---|---|---|
-| 🟢 GT \| Odoo \| CP \| Servicios | ACTIVE | $28.39 | 4,017 | 77 | 1.92% | 4 | $7.10 |
-| 🟢 GT \| Beco \| CP \| Conjuntos | ACTIVE | $14.20 | 1,583 | 38 | 2.40% | 3 | **$4.73** |
-| 🔴 COL \| Odoo \| CP \| Servicios | ACTIVE | $8.37 | 720 | 19 | 2.64% | 0 | — (sin leads) |
-| 🔴 PY \| Odoo \| CP \| Servicios | ACTIVE | $8.23 | 1,101 | 19 | 1.73% | 0 | — (sin leads) |
-| 🔴 SLV \| Beco \| CP \| Conjuntos | ACTIVE | $9.09 | 1,076 | 23 | 2.14% | 0 | — (sin leads) |
-| 🔴 PY \| Beco \| CP \| Conjuntos | ACTIVE | $7.45 | 1,152 | 14 | 1.22% | 0 | — (sin leads) |
-| 🔴 SLV \| Odoo \| CP \| Servicios | ACTIVE | $7.72 | 1,164 | 15 | 1.29% | 0 | — (sin leads) |
+| 🟢 GT \| Beco \| CP \| Conjuntos | ACTIVE | $14.56 | 1,621 | 38 | 2.34% | 3 | **$4.85** |
+| 🟢 GT \| Odoo \| CP \| Servicios | ACTIVE | $28.61 | 4,070 | 77 | 1.89% | 4 | $7.15 |
+| 🔴 SLV \| Beco \| CP \| Conjuntos | ACTIVE | $9.16 | 1,087 | 23 | 2.12% | 0 | — (sin leads) |
+| 🔴 COL \| Odoo \| CP \| Servicios | ACTIVE | $8.47 | 726 | 20 | 2.75% | 0 | — (sin leads) |
+| 🔴 PY \| Odoo \| CP \| Servicios | ACTIVE | $8.35 | 1,109 | 19 | 1.71% | 0 | — (sin leads) |
+| 🔴 SLV \| Odoo \| CP \| Servicios | ACTIVE | $7.81 | 1,178 | 15 | 1.27% | 0 | — (sin leads) |
+| 🔴 PY \| Beco \| CP \| Conjuntos | ACTIVE | $7.72 | 1,185 | 16 | 1.35% | 0 | — (sin leads) |
 | ⚪ Evento: gestión de nómina (Odoo) | ACTIVE (EVENT_RESPONSES, no lead-gen) | $0.00 | 0 | 0 | — | n/a | n/a |
 
 **Resto de la cuenta — todo PAUSED** (13 campañas, sin cambios desde días anteriores): COL \| Beco \| CP \| Conjuntos, COL \| Odoo \| CP \| Servicios (versión de prueba anterior), 2x boosts de "Evento: Odoo en Acción", "[2026-08][Lead Generation][Odoo][COL] - Pyme Colombia", "...[USA] - Toma El control de tu pyme", "...[GT] - Toma El control de tu pyme", Accurate Partners - Loyalti, "...[GT] - Odoo Test", "...[GT] - Beco", Conversión Clientes Potenciales MX/PY, "...[SV] - Pyme El Salvador", 🟡 Conversión - Clientes Potenciales.
@@ -74,23 +78,25 @@ Ninguno en Meta Ads. Solo se hizo lectura/análisis (`ads_get_ad_entities`, `ads
 
 ## 📊 Datos Clave del Día
 
-| Métrica (blendeada, 7 campañas lead-gen) | 2026-11-20 (provisional, ~8 min de cierre) | 2026-11-19 (final, verificado) | Meta | Status |
+**[Actualizado con datos finales — ver advertencia arriba]**
+
+| Métrica (blendeada, 7 campañas lead-gen) | 2026-11-20 (final, verificado) | 2026-11-19 (final, verificado) | Meta | Status |
 |---|---|---|---|---|
-| CPL Promedio | **$11.92** | $9.76 | $6-7 | 🔴 Empeora fuerte (+22.1%), peor CPL desde el 18-nov |
-| Gasto Total (lead-gen) | $83.45 | $68.30 | - | 🔴 +22.2% |
-| Leads Totales | 7 | 7 | 4-5/día | 🟢 Igual que ayer, por encima de meta |
+| CPL Promedio | **$12.10** | $9.76 | $6-7 | 🔴 Empeora fuerte (+23.98%), peor CPL del período registrado |
+| Gasto Total (lead-gen) | $84.68 | $68.30 | - | 🔴 +23.98%, mayor gasto diario del período registrado |
+| Leads Totales | 7 | 7 | 4-5/día | 🟢 Igual que ayer, por encima de meta (3er día consecutivo en 7) |
 | CTR Promedio | 1.90% | 2.03% | 3-4% | 🔴 Retrocede (-6.4%), sigue bajo meta |
-| Impresiones (lead-gen) | 10,813 | 9,740 | - | — |
-| Clicks (lead-gen) | 205 | 198 | - | — |
-| Campañas activas sin ningún lead | 5 (COL Odoo, PY Odoo, SLV Beco, PY Beco, SLV Odoo) | 3 (PY Beco, SLV Beco, GT Beco — todas Beco) | - | 🔴 Empeoró en cantidad; ahora cruza ambas líneas de producto |
-| Mejor campaña del día | GT Beco ($4.73 CPL, 3 leads) | GT Odoo ($5.89 CPL, 4 leads) | - | — |
+| Impresiones (lead-gen) | 10,976 | 9,740 | - | — |
+| Clicks (lead-gen) | 208 | 198 | - | — |
+| Campañas activas sin ningún lead | 5 (SLV Beco, COL Odoo, PY Odoo, SLV Odoo, PY Beco) | 3 (PY Beco, SLV Beco, GT Beco — todas Beco) | - | 🔴 Empeoró en cantidad; ahora cruza ambas líneas de producto |
+| Mejor campaña del día | GT Beco ($4.85 CPL, 3 leads — mejor CPL histórico de esta campaña) | GT Odoo ($5.89 CPL, 4 leads) | - | — |
 | Cambios de campaña ejecutados hoy | 0 | 0 | - | — |
 
 ---
 
 ## 📋 Proximas Acciones
 
-- [ ] Confirmar al cierre formal del 2026-11-20 si el CPL ($11.92), el CTR (1.90%) y la concentración de leads en solo GT se mantienen con los números finales (misma verificación que rutinas anteriores: `date_preset=yesterday` + `time_range` explícito una vez cierre el día).
+- [x] Confirmar al cierre formal del 2026-11-20 si el CPL ($11.92), el CTR (1.90%) y la concentración de leads en solo GT se mantienen con los números finales — confirmado, variación menor (CPL final $12.10, CTR final 1.90% sin cambio real, gasto final $84.68, leads sin cambio). Generado `Reports/2026-11-20 - Reporte Performance.md`.
 - [ ] **Nuevo — prioridad alta:** investigar por qué **PY, SLV y COL** quedaron simultáneamente en cero leads hoy, cruzando ambas líneas de producto (Odoo y Beco) — el patrón ya no parece ser por línea de producto (como se pensaba el 19-nov) sino geográfico; revisar si hay un factor común a esas 3 geografías (audiencia, puja, horario de entrega, o algo externo al creativo).
 - [ ] Confirmar si la concentración de leads en **GT** (ambas campañas, Odoo y Beco) se sostiene mañana o fue un repunte puntual de un solo día.
 - [ ] Revisar por qué el CPL de **GT \| Odoo** subió de $5.89 a $7.10 pese a mantener 4 leads — el mayor gasto ($28.39 vs $23.55) no se tradujo en más leads.
@@ -102,6 +108,7 @@ Ninguno en Meta Ads. Solo se hizo lectura/análisis (`ads_get_ad_entities`, `ads
 
 ## 🔗 Enlaces
 
+- [[Reports/2026-11-20 - Reporte Performance]] — reporte final y verificado de este mismo día (corrige las cifras provisionales de esta nota).
 - [[Daily notes/2026-11-20 - Resumen del Dia]] — nota del día anterior (documenta en realidad el 2026-11-19, final, por el mismo desajuste de zona horaria).
 - [[Reports/2026-11-19 - Reporte Performance]] — reporte final y verificado del día usado como base de comparación en esta nota.
 - [[Reports/2026-11-18 - Reporte Performance]] — reporte final y verificado de dos días atrás, para contexto adicional de tendencia.
