@@ -6,110 +6,75 @@ tags: [daily-note, summary, meta-ads, octopus]
 
 # Resumen del Dia - 2026-11-24
 
-> [!warning] Nota sobre la fecha y los datos (mismo desajuste de zona horaria de rutinas anteriores)
-> Esta rutina se ejecutó a las **~05:51 UTC del 24-nov** (≈ 23:51 del 2026-11-23 en `America/Guatemala`, zona horaria de la cuenta `act_2530001557366648`). A esa hora el día local de la cuenta **todavía no cambiaba a 2026-11-24**: `date_preset=today` resolvió a **2026-11-23** (provisional, faltan ~9 minutos de cierre) y `date_preset=yesterday` resolvió a **2026-11-22** (final, ya publicado en [[Reports/2026-11-22 - Reporte Performance]]). Por lo tanto, los datos de "hoy" en esta nota corresponden en realidad al día **2026-11-23** (provisional) y la comparación es contra **2026-11-22** (final). Se mantiene el nombre de archivo `2026-11-24` siguiendo el mismo patrón de rutinas anteriores (fecha del sistema al momento de ejecutarse) — mismo desajuste ya documentado en las notas del 18 al 23-nov.
->
-> **Verificación de drift de atribución tardía contra el reporte final del 22-nov:** al re-consultar `date_preset=yesterday` (2026-11-22) hoy, el gasto total sumó **$107.30** vs. $107.13 final reportado (+$0.17), impresiones 14,740 vs. 14,687 (+53); leads (22) y clicks (297) no cambiaron. Ajuste marginal (+0.16%), consistente con el patrón de días anteriores; no se corrige el reporte ya publicado del 22-nov.
->
-> **Higiene de repositorio:** `git status` al iniciar mostró `main` limpio y sincronizado con `origin/main` (sin HEAD detached) — a diferencia de rutinas anteriores (20 al 23-nov), hoy no fue necesario corregir nada.
+> [!info] Corrección de higiene de bóveda
+> Este archivo existía previamente con contenido mal etiquetado: por un desajuste de zona horaria de una rutina anterior (ejecutada antes del cierre del día de la cuenta, `America/Guatemala`), el archivo nombrado "24" documentaba en realidad datos **provisionales** del **2026-11-23** (día ya capturado en su versión final en [[Reports/2026-11-23 - Reporte Performance]]). Esta rutina, ejecutada a las **07:08 hora local de la cuenta** (día 2026-11-24 ya cerrado), corrige el archivo para que su contenido corresponda a la fecha de su nombre, con los datos **finales y verificados** de ese día — ver [[Reports/2026-11-24 - Reporte Performance]] para el detalle completo. Los datos provisionales superados que antes vivían aquí quedan preservados en [[Daily notes/2026-11-25 - Resumen del Dia]] (que, por el mismo desajuste, documentó el 24-nov de forma provisional bajo el nombre "25").
 
 ---
 
-## 🎯 Campañas Revisadas
+## 🎯 Resumen Ejecutivo del Día
 
-Se revisaron las 7 campañas activas de lead-gen + 2 de evento vía `ads_get_ad_entities` (nivel campaña, `date_preset=today` → día real 2026-11-23, provisional):
+Mejora moderada tras el peor día del período: **7 leads** (igual que ayer) con **$84.04** de gasto (-15.8%) → CPL blendeado **$12.01** (-15.8% vs. ayer), sobre 7 campañas lead-gen activas más 2 de evento. El CPL sigue casi al doble de la meta $6-7, y la mejora viene de menor gasto, no de más leads: el volumen total está exactamente igual que ayer, solo redistribuido — **GT \| Odoo** se recupera con fuerza (CPL $5.06, dentro de meta) mientras **SLV \| Odoo**, la campaña más estable del período reciente, cae a cero por primera vez.
 
 | Campaña | Status | Gasto | Impresiones | Clicks | CTR | Leads | CPL |
 |---|---|---|---|---|---|---|---|
-| 🔴 COL \| Odoo \| CP \| Servicios | ACTIVE | $9.88 | 944 | 26 | 2.75% | 0 | — (sin leads) |
-| 🔴 PY \| Beco \| CP \| Conjuntos | ACTIVE | $7.62 | 1,297 | 18 | 1.39% | 0 | — (sin leads) |
-| 🔴 PY \| Odoo \| CP \| Servicios | ACTIVE | $8.89 | 1,203 | 25 | 2.08% | 0 | — (sin leads) |
-| 🔴 SLV \| Beco \| CP \| Conjuntos | ACTIVE | $8.05 | 1,335 | 29 | 2.17% | 0 | — (sin leads) |
-| 🟢 SLV \| Odoo \| CP \| Servicios | ACTIVE | $9.18 | 1,280 | 37 | 2.89% | 2 | **$4.59** |
-| 🔴 GT \| Beco \| CP \| Conjuntos | ACTIVE | $16.31 | 2,036 | 42 | 2.06% | 1 | $16.31 |
-| 🟡 GT \| Odoo \| CP \| Servicios | ACTIVE | $34.15 | 4,633 | 95 | 2.05% | 4 | $8.54 |
-| ⚪ Evento: El futuro de la gestión de nómina (Odoo) | ACTIVE (EVENT_RESPONSES, no lead-gen) | $0.00 | 0 | 0 | — | n/a | n/a |
-| 🆕 Evento: Cotiza en segundos y cierra ventas desde el celular (3 trucos en Odoo) | ACTIVE (EVENT_RESPONSES, no lead-gen) | $4.58 | 6,624 | 162 | 2.45% | n/a | n/a |
+| 🟢 GT \| Odoo \| CP \| Servicios | ACTIVE | $25.29 | 3,493 | 87 | 2.49% | 5 | **$5.06** |
+| 🟡 PY \| Odoo \| CP \| Servicios | ACTIVE | $8.07 | 1,316 | 18 | 1.37% | 1 | $8.07 |
+| 🔴 GT \| Beco \| CP \| Conjuntos | ACTIVE | $13.72 | 1,730 | 42 | 2.43% | 1 | $13.72 |
+| 🔴 COL \| Odoo \| CP \| Servicios | ACTIVE | $7.66 | 619 | 10 | 1.62% | 0 | — (sin leads) |
+| 🔴 PY \| Beco \| CP \| Conjuntos | ACTIVE | $8.67 | 1,428 | 19 | 1.33% | 0 | — (sin leads) |
+| 🔴 SLV \| Beco \| CP \| Conjuntos | ACTIVE | $7.28 | 1,115 | 15 | 1.35% | 0 | — (sin leads) |
+| 🔴 SLV \| Odoo \| CP \| Servicios | ACTIVE | $6.42 | 832 | 17 | 2.04% | 0 | — (sin leads) |
+| ⚪ Evento: Cotiza en segundos (Odoo) | ACTIVE (EVENT_RESPONSES) | $6.93 | 9,995 | 232 | 2.32% | n/a | n/a |
+| ⚪ Evento: El futuro de la gestión de nómina (Odoo) | ACTIVE (EVENT_RESPONSES) | $0.00 | 0 | 0 | — | n/a | n/a |
 
-**Resto de la cuenta — todo PAUSED** (14 campañas, sin cambios desde días anteriores): COL \| Beco \| CP \| Conjuntos, COL \| Odoo \| CP \| Servicios (versión de prueba anterior), 2x boosts de "Evento: Odoo en Acción", "[2026-08][Lead Generation][Odoo][COL] - Pyme Colombia", "...[USA] - Toma El control de tu pyme", "...[GT] - Toma El control de tu pyme", Accurate Partners - Loyalti, "...[GT] - Odoo Test", "...[GT] - Beco", Conversión Clientes Potenciales MX/PY, "...[SV] - Pyme El Salvador", 🟡 Conversión - Clientes Potenciales.
-
-**Acción manual detectada (fuera de esta rutina):** `ads_account_get_activity_logs` (rango 2026-11-23 06:00 – 2026-11-24 06:00 UTC) muestra que **Gabriel Calderon creó hoy a las 9:34–9:36 AM (hora de la cuenta), vía la app "Boosted Page" (boost de página/evento desde el móvil o Ads Manager), una nueva campaña-boost de evento**: "Evento: Cotiza en segundos y cierra ventas desde el celular: 3 trucos en Odoo para vender..." — segmentación Guatemala, 18+, Advantage+ audience activado, presupuesto total (lifetime budget) **$20.00 USD**, objetivo "Event response". El anuncio empezó a entregar a las 10:30 AM y ya acumuló $4.58 de gasto / 6,624 impresiones / 162 clicks / 2.45% CTR en su primer día — no es parte del set de lead-gen y no se compara contra la meta de CPL.
+**Resto de la cuenta:** ~14 campañas PAUSED sin cambios.
 
 ---
 
-## 📊 Análisis e Insights
+## 🔄 Cambios Principales vs. Día Anterior (2026-11-23)
 
-1. **Reversión fuerte del día: 4 de 7 campañas lead-gen caen a cero leads simultáneamente** (COL \| Odoo, PY \| Beco, PY \| Odoo, SLV \| Beco), subiendo de solo 1 campaña en cero (SLV \| Beco) en los dos días previos a 4 — y abarcando 3 países distintos (COL, PY, SLV) y ambas marcas (Odoo y Beco). Que el corte sea simultáneo y cruce países/marcas, no un patrón aislado de una sola campaña, apunta más a una causa compartida (formulario de leads, integración con CRM/webhook, tracking) que a problemas independientes de audiencia o puja en cada una.
-2. **Leads totales se desploman a 7** (vs. 22 finales del 21-nov anterior/22-nov), -68.2%, el peor día del período registrado desde que se empezó a documentar mejora sostenida (18 al 22-nov). **CPL blendeado sube a ~$13.44** (vs. $4.87 final de ayer, +176%), muy por encima de la meta $6-7.
-3. **El tráfico (impresiones, clicks, CTR) solo cae moderadamente, y el CTR incluso mejora:** impresiones 12,728 (-13.3% vs. 14,687), clicks 272 (-8.4% vs. 297), CTR blendeado ~2.14% (+5.9% vs. 2.02% final de ayer). Esto es clave: la caída está concentrada en la conversión a lead, no en la entrega ni en el interés del anuncio (el CTR sigue siendo de los mejores del período) — refuerza la hipótesis de un problema técnico de captura de leads (formulario, CRM, pixel) más que de fatiga de audiencia o creativo.
-4. **Las recuperaciones reportadas el 21/22-nov no se sostuvieron:** PY \| Odoo (que había llegado a 5 leads/$2.08 CPL) y PY \| Beco (1 lead/$9.90 CPL) vuelven ambas a cero hoy; COL \| Odoo (2 leads/$5.19 ayer) también cae a cero. Solo SLV \| Beco mantiene su racha de cero (ya 5-6 días consecutivos).
-5. **SLV \| Odoo es la única campaña que se mantiene estable y saludable:** 2 leads a **$4.59 CPL**, por debajo de la meta, mejor CPL del día — contrasta con el resto de la cuenta y sugiere que no es un problema de infraestructura 100% generalizado (si lo fuera, también afectaría a esta campaña), aunque sí reduce su volumen de leads (2 vs. 4 ayer).
-6. **GT \| Odoo y GT \| Beco (las dos campañas de mayor gasto) absorben casi todos los leads del día (4 y 1) pero a CPL sobre meta:** GT \| Odoo $8.54 (vs. $5.47 final de ayer, +56%) y GT \| Beco **$16.31** (vs. $6.34 final de ayer, +157%, el peor CPL individual del período para esta campaña).
-7. **`ads_insights_anomaly_signal` no detectó anomalías** (solapamiento de subasta, fatiga de creativo o audiencia estrecha) y `ads_get_errors` no devolvió errores de entrega/publicación bloqueantes — es decir, Meta no ve un problema de delivery, consistente con que el tráfico (impresiones/clicks/CTR) está en línea con días anteriores. Esto refuerza que, si hay un problema, está río abajo de Meta (formulario instantáneo, integración con CRM, confirmación de leads), fuera del alcance de estas herramientas de diagnóstico.
-8. **Nueva campaña-boost de evento creada manualmente hoy** ("Cotiza en segundos...", ver sección de Campañas Revisadas) — es una acción del usuario fuera de esta rutina, no relacionada con la caída de leads de las campañas de Odoo/Beco.
-9. **Campaña de evento "El futuro de la gestión de nómina" sigue sin datos** por ~14º día consecutivo (sin gasto/impresiones/clicks), sin errores de entrega bloqueantes detectados — pendiente de revisión manual directa, ahora con más urgencia dado el tiempo acumulado.
-10. No hubo otra sesión de Claude Code activa en la cuenta hoy aparte de esta rutina, y no se realizó investigación externa de competencia o tendencias de mercado.
-11. **Dato pendiente de cierre:** como se explica en la nota de advertencia arriba, los números de esta nota son provisionales (faltan ~9 minutos de cierre del día de la cuenta); se espera que una rutina posterior confirme estas cifras con los datos finales — dado lo marcado de la caída, es poco probable que el drift normal (+0.1-0.5%) cambie la conclusión.
+| Métrica | 2026-11-24 (final) | 2026-11-23 (final) | Cambio |
+|---|---|---|---|
+| CPL Promedio | **$12.01** | $14.26 | 🟡 -15.8%, mejora pero sigue casi al doble de la meta |
+| Gasto Total | $84.04 | $99.80 | 🟢 -15.8% |
+| Leads Totales | 7 | 7 | — Sin cambio (misma cantidad, distinta distribución) |
+| CTR Promedio | 2.14% | **2.23%** | 🔴 -4.0% |
+| Impresiones | 20,528 | 19,653 | +4.5% |
+| Clicks | 440 | 439 | +0.2% |
+| Campañas activas lead-gen sin leads | 4 (COL Odoo, PY Beco, SLV Beco, SLV Odoo) | 4 (COL Odoo, PY Odoo, SLV Beco, PY Beco) | — Igual cantidad, pero SLV Odoo cae y PY Odoo se recupera |
 
 ---
 
-## ✏️ Cambios Realizados
+## 📊 Status de Campañas (arriba / abajo / estable)
 
-**Ninguno desde esta rutina** en las campañas lead-gen (solo lectura/análisis: `ads_get_ad_accounts`, `ads_get_ad_entities` con `date_preset=today` y `date_preset=yesterday`, `ads_account_get_activity_logs`, `ads_insights_anomaly_signal`, `ads_get_errors`); no se modificó presupuesto, targeting, copy ni creativo de ninguna campaña de lead-gen.
-
-**Cambio detectado, realizado directamente en Meta por el usuario (no por esta rutina):** creación de la nueva campaña-boost de evento "Evento: Cotiza en segundos y cierra ventas desde el celular: 3 trucos en Odoo para vender..." (ver detalle arriba) — campaña, ad set y anuncio creados y activados entre las 9:34 AM y 10:30 AM de hoy vía la app "Boosted Page", presupuesto total $20.00 USD, ya entregando.
-
-**Repositorio:** sin cambios de higiene necesarios hoy (rama `main` ya sincronizada con `origin/main` al iniciar).
-
----
-
-## 🔬 Investigación Realizada
-
-- Se consultó `ads_get_ad_accounts` para confirmar la cuenta activa de la plantilla (`act_2530001557366648`, "GT | Octopus Innovations") entre las 10 cuentas visibles para este usuario.
-- Se consultó `ads_get_ad_entities` (nivel cuenta) para verificar la zona horaria real de la cuenta (`timezone_name=America/Guatemala`) junto con `date -u` / `TZ='America/Guatemala' date` del sistema, confirmando que "hoy" de la cuenta = 2026-11-23 (provisional, ~9 min de cierre).
-- Se consultó `ads_get_ad_entities` (nivel campaña) con `date_preset=today` (→ 23-nov, provisional) y `date_preset=yesterday` (→ 22-nov) para las 7 campañas lead-gen activas más las 2 de evento.
-- Se comparó `date_preset=yesterday` (22-nov) contra las cifras finales ya publicadas en [[Reports/2026-11-22 - Reporte Performance]] para detectar drift de atribución tardía (+$0.17 gasto, +53 impresiones, sin cambio en leads/clicks).
-- Se consultó `ads_account_get_activity_logs` para el rango 2026-11-23 06:00 – 2026-11-24 06:00 UTC: se detectó la creación manual de la nueva campaña-boost de evento (ver arriba); sin otros cambios de presupuesto, targeting ni estado en las campañas de lead-gen.
-- Se ejecutó `ads_insights_anomaly_signal` sobre la cuenta: sin anomalías de solapamiento de subasta, fatiga de creativo o audiencia estrecha, a pesar de la fuerte caída de leads observada.
-- Se ejecutó `ads_get_errors` sobre la cuenta: sin errores bloqueantes de publicación o entrega.
-- Se auditó `git status`: repo limpio y ya sincronizado con `origin/main`, sin necesidad de corrección.
-- No se realizó investigación externa de competencia ni tendencias de mercado.
+- 🟢 **GT \| Odoo** — ARRIBA (fuerte): 4 → 5 leads, CPL $8.70 → **$5.06**, vuelve a estar dentro de meta y concentra el 71.4% de los leads del día.
+- 🟡 **PY \| Odoo** — ARRIBA: 0 → 1 lead, CPL $8.07, rompe la racha de ceros pero sigue sobre meta.
+- 🟡 **GT \| Beco** — ESTABLE en leads, ARRIBA en CPL: se mantiene en 1 lead, CPL $16.37 → $13.72, mejora pero sigue muy sobre la meta.
+- 🔴 **SLV \| Odoo** — ABAJO (fuerte): 2 → 0 leads, primera vez en cero en el período reciente; venía siendo la campaña más estable y saludable de la cuenta.
+- 🔴 **COL \| Odoo** — ESTABLE: se mantiene en 0 leads.
+- 🔴 **PY \| Beco** — ESTABLE: se mantiene en 0 leads.
+- 🔴 **SLV \| Beco** — ESTABLE (preocupante): se mantiene en 0 leads, ~6-7º día consecutivo, la racha más persistente de la cuenta.
+- ⚪ **Evento nómina** — ESTABLE: sin actividad por ~15-16º día consecutivo.
+- ⚪ **Evento cotiza en segundos** — ESTABLE/creciendo: segundo día de entrega, $6.93 gastados (vs. $4.68-4.74 el día anterior), no es lead-gen.
 
 ---
 
-## 📊 Datos Clave del Día
+## 📋 Próximas Acciones
 
-| Métrica (blendeada, 7 campañas lead-gen) | 2026-11-23 (provisional, ~9 min de cierre) | 2026-11-22 (final, verificado) | Meta | Status |
-|---|---|---|---|---|
-| CPL Promedio | **$13.44** | $4.87 | $6-7 | 🔴 Empeora fuertemente (+176%), peor del período registrado |
-| Gasto Total (lead-gen) | $94.08 | $107.13 | - | 🟡 -12.2%, menos gasto pero muchos menos leads |
-| Leads Totales | **7** | 22 | 4-5/día | 🔴 -68.2%, peor día del período, aunque sigue dentro del rango histórico amplio |
-| CTR Promedio | 2.14% | 2.02% | 3-4% | 🟢 Mejora (+5.9%), sigue bajo meta pero el tráfico no es el problema |
-| Impresiones (lead-gen) | 12,728 | 14,687 | - | — |
-| Clicks (lead-gen) | 272 | 297 | - | — |
-| Campañas activas sin ningún lead | 4 (COL Odoo, PY Beco, PY Odoo, SLV Beco) | 1 (SLV Beco) | - | 🔴 Empeora fuertemente (de 1 a 4) |
-| Mejor campaña del día | SLV Odoo ($4.59 CPL, 2 leads) | PY Odoo ($2.08 CPL, 5 leads) | - | — |
-| Cambios de campaña lead-gen ejecutados hoy | 0 | 0 | - | — |
-| Nuevas campañas creadas (fuera de lead-gen) | 1 (boost de evento, manual) | 0 | - | — |
-
----
-
-## 📋 Proximas Acciones
-
-- [ ] **Prioridad urgente:** investigar causa técnica compartida de la caída simultánea a cero leads en 4 campañas de 3 países distintos (COL \| Odoo, PY \| Beco, PY \| Odoo, SLV \| Beco) — revisar en Ads Manager / Meta Business Suite el estado del formulario instantáneo (Instant Forms), la integración con CRM/webhook y el pixel de leads, ya que el tráfico (CTR, clicks, impresiones) se mantuvo normal, lo que descarta un problema de entrega o fatiga de audiencia.
-- [ ] Confirmar al cierre formal del 2026-11-23 si el CPL ($13.44) y el conteo de leads (7) se mantienen con los números finales, o si hay atribución tardía significativa — generar `Reports/2026-11-23 - Reporte Performance.md` una vez cierre el día.
-- [ ] Revisar por qué **SLV \| Beco** sigue en cero leads (ya 5-6 días consecutivos, el más persistente de la cuenta) — evaluar audiencia, puja, horario de entrega u oferta frente a SLV \| Odoo (mismo país, única que sí convierte hoy).
-- [ ] Verificar si la caída de **GT \| Beco** a $16.31 CPL (1 lead) es puntual o el inicio de una tendencia, dado que es el peor CPL individual del período para esta campaña.
-- [ ] Confirmar con el usuario el objetivo y seguimiento de la nueva campaña-boost de evento "Cotiza en segundos..." (creada hoy manualmente, $20 USD lifetime budget) — no requiere acción de esta rutina, pero conviene documentarla en Campaigns/ si se espera que continúe.
-- [ ] Verificar en Ads Manager por qué "Evento: El futuro de la gestión de nómina (Odoo)" sigue sin reportar gasto ni métricas (~14 días) — confirmar `start_time`, presupuesto o calendario.
-- [ ] Seguir trabajando el CTR blendeado (2.14% vs meta 3-4%) con pruebas A/B de creativo, aunque hoy no es la causa principal del mal resultado.
-- [ ] Pendiente heredado: decidir el futuro de las ~14 campañas históricas pausadas (Toma El control de tu pyme, Pyme Colombia, Pyme El Salvador, etc.) — reactivar, reemplazar formalmente o archivar.
+- [ ] Investigar por qué **SLV \| Odoo** cae a cero leads hoy tras ser la campaña más estable del período — revisar puja, audiencia y si comparte la causa técnica (formulario/CRM/pixel) que afecta a las otras 3 campañas en cero.
+- [ ] Revisar el formulario instantáneo, la integración CRM/webhook y el pixel de leads a nivel de cuenta — la composición de campañas en cero cambia día a día pese a tráfico normal, sin anomalías ni errores de entrega detectados por Meta.
+- [ ] Dar seguimiento a si **GT \| Odoo** sostiene su recuperación (CPL $5.06) sin que la cuenta dependa de una sola campaña, y si **PY \| Odoo**/**GT \| Beco** consolidan su mejora parcial.
+- [ ] Revisar por qué **SLV \| Beco** sigue en cero leads (~6-7 días consecutivos, el más persistente de la cuenta).
+- [ ] Verificar en Ads Manager por qué "Evento: El futuro de la gestión de nómina (Odoo)" sigue sin reportar actividad tras ~15-16 días.
+- [ ] Pendiente heredado: decidir el futuro de las ~14 campañas históricas pausadas.
 
 ---
 
 ## 🔗 Enlaces
 
-- [[Reports/2026-11-22 - Reporte Performance]] — reporte final y verificado del día usado como base de comparación en esta nota.
+- [[Reports/2026-11-24 - Reporte Performance]] — reporte completo del día, con insights y recomendaciones detalladas.
 - [[Daily notes/2026-11-23 - Resumen del Dia]] — nota del día anterior.
-- [[Reports/2026-11-21 - Reporte Performance]] — reporte final de dos días atrás, para contexto adicional de tendencia.
-- Tags: #daily-note #summary #meta-ads #octopus
+- [[Reports/2026-11-23 - Reporte Performance]] — reporte final del día anterior, usado como base de comparación.
+- [[Daily notes/2026-11-25 - Resumen del Dia]] — nota que documentaba (de forma provisional) los datos de este mismo día 24-nov antes del cierre de la cuenta.
+
+Tags: #daily-note #summary #meta-ads #octopus
